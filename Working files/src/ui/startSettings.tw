@@ -1,36 +1,36 @@
 :: startSettings [nobr intro] {"position":"100,800","size":"100,100"}
 <<include "Init">>
 
-Before we start the game, there are some global settings that determine how easy or hard the game is. These can be changed at any time in the 'Settings' menu on the left.
+게임을 시작하기 전에 게임이 얼마나 쉬운지 또는 어려운지를 결정하는 글로벌 설정이 있습니다. 왼쪽의 '설정' 메뉴에서 언제든지 변경할 수 있습니다.
 <br><br>
 
-<h2>Game Difficulty</h2>
+<h2>게임 난이도 </h2>
 <br>
-Determines the difficulty of the game. This does not determine how fast the player grows, merely the challenge during the game. This determines the price of some clothes, the weekly rent they player must pay, and the price of food.
+게임의 난이도를 결정합니다. 이것은 플레이어가 얼마나 빨리 성장하는지를 결정하는 것이 아니라 단지 게임 중의 도전에 불과합니다. 이것은 일부 옷의 가격, 플레이어가 지불해야 하는 주 임대료, 그리고 음식의 가격을 결정합니다.
 <br>
-<label><<radiobutton "$difficulty" "sandbox" autocheck>> Sandbox - far more money and items available, it's impossible to get fired from jobs.</label>
+<label><<radiobutton "$difficulty" "sandbox" autocheck>> Sandbox - 훨씬 더 많은 돈과 물건이 있습니다. 직장에서 해고되는 것은 불가능합니다.</label>
 <br>
-<label><<radiobutton "$difficulty" "easy" autocheck>> Easy - more money and items available.</label>
+<label><<radiobutton "$difficulty" "easy" autocheck>> Easy - 더 많은 돈과 아이템들을 사용가능합니다.</label>
 <br>
-<label><<radiobutton "$difficulty" "medium" autocheck>> Medium - the game is made to have some challenge balancing money and growth.</label>
+<label><<radiobutton "$difficulty" "medium" autocheck>> Medium - 돈과 성장의 균형을 맞추도록 당신을 테스트할 것입니다.</label>
 <br>
-<label><<radiobutton "$difficulty" "hard" autocheck>>  Hard - the game will make an active attempt to bankrupt you and cause a game over.</label>
-<br>
-<br>
-<h2>Growth speed </h2>
-<br>
-Determines the general speed at which the main character will grow. This makes the game quicker.
-<br>
-<label><<radiobutton "$growthMod" 0.5 autocheck>> Slow</label>
-<br>
-<label><<radiobutton "$growthMod" 1 autocheck>> Medium</label>
-<br>
-<label><<radiobutton "$growthMod" 1.5 autocheck>>  Fast</label>
+<label><<radiobutton "$difficulty" "hard" autocheck>>  Hard - 게임은 당신을 파산시키고 게임 오버를 야기할 것입니다.</label>
 <br>
 <br>
-<h2>Daily amount of potions </h2>
+<h2>성장속도 </h2>
 <br>
-Determines the amount of potions that will appear in the shop daily.
+주인공이 성장하는 일반적인 속도를 결정합니다. 이는 게임이 더 빠르게 진행되도록 만듭니다.
+<br>
+<label><<radiobutton "$growthMod" 0.5 autocheck>> 느리게</label>
+<br>
+<label><<radiobutton "$growthMod" 1 autocheck>> 보통</label>
+<br>
+<label><<radiobutton "$growthMod" 1.5 autocheck>>  빠르게</label>
+<br>
+<br>
+<h2>일간 포션 수 </h2>
+<br>
+매일 상점에 나타날 포션의 갯수를 결정합니다.
 <br>
 <label><<radiobutton "$dailyConsumableAmount" 1 autocheck>> 1</label>
 <br>
@@ -39,48 +39,46 @@ Determines the amount of potions that will appear in the shop daily.
 <label><<radiobutton "$dailyConsumableAmount" 3 autocheck>> 3</label>
 <br>
 <br>
-<h2>Muscle growth Style</h2>
+<h2>근성장 스타일 </h2>
 <br>
-Determines the style of muscle growth. At 'Fantasy' you can expect the protagonist to be the size of a large male bodybuilder by mid-game. At 'Realistic' you can expect her to aim for a Grecian Ideal Physique, resulting in more realistic development.
+근육 성장 스타일을 결정합니다. "판타지스럽게"에서는 게임 중반즈음엔 주인공이 대형 남성 보디빌더 크기가 될 것으로 예상할 수 있습니다. "현실적으로"에서는 그레시안 이상적인 피지크를 목표로 하여 더 현실적인 전개를 기대할 수 있습니다.
 <br>
-<label><<radiobutton "$muscleGrowthStyle" "Realistic" autocheck>> Realistic</label>
+<label><<radiobutton "$muscleGrowthStyle" "Realistic" autocheck>> 현실적으로</label>
 <br>
-<label><<radiobutton "$muscleGrowthStyle" "Fantasy" autocheck>> Fantasy</label>
-<br>
-<br>
-<h2>Add Futa content</h2>
-<br>
-When this is on, the female protagonist can grow a penis.
-<br>
-<label><<radiobutton "$futa" true autocheck>> on</label>
-<br>
-<label><<radiobutton "$futa" false autocheck>> off</label>
+<label><<radiobutton "$muscleGrowthStyle" "Fantasy" autocheck>> 판타지스럽게</label>
 <br>
 <br>
-<h2>Add lactation content</h2>
+<h2>후타나리 콘텐츠 </h2>
 <br>
-When this is on, the protagonist can start leaking milk
+이 설정을 켜면, 플레이어 캐릭터는 자지가 자랄 수도 있습니다.
 <br>
-<label><<radiobutton "$lactationSetting" true autocheck>> on</label>
+<label><<radiobutton "$futa" true autocheck>> 켜기</label>
 <br>
-<label><<radiobutton "$lactationSetting" false autocheck>> off</label>
+<label><<radiobutton "$futa" false autocheck>> 끄기</label>
 <br>
 <br>
-<h2>Measurement system</h2>
-Determines the measurement system used in the game.
+<h2>모유 콘텐츠 </h2>
 <br>
-<label><<radiobutton "$measurementSystem" "imperial" autocheck>> Imperial</label>
+이 설정을 켜면, 플레이어 캐릭터는 모유가 나오게 될 수도 있습니다.
 <br>
-<label><<radiobutton "$measurementSystem" "metric" autocheck>> Metric</label>
+<label><<radiobutton "$lactationSetting" true autocheck>> 켜기</label>
+<br>
+<label><<radiobutton "$lactationSetting" false autocheck>> 끄기</label>
+<br>
+<br>
+<h2>도량형</h2>
+게임 내에서 사용되는 도량형을 결정합니다.
+<br>
+<label><<radiobutton "$measurementSystem" "metric" autocheck>> 미터법</label>
 <br><br>
-<h2>Rival gender</h2>
-This determines the gender of the rival you will encounter.
+<h2>라이벌의 성별 </h2>
+당신이 마주치게 될 라이벌의 성별을 결정합니다.
 <br>
-<label><<radiobutton "$rivalGender" 'male' autocheck>> Male</label>
+<label><<radiobutton "$rivalGender" 'male' autocheck>> 남성</label>
 <br>
-<label><<radiobutton "$rivalGender" 'female' autocheck>> Female</label>
+<label><<radiobutton "$rivalGender" 'female' autocheck>> 여성</label>
 <br><br>
 
-<<button [[Go on|startPoints]]>><</button>>
+<<button [[다음|startPoints]]>><</button>>
 
 

@@ -8,16 +8,16 @@
   padding-top: 20px;
   vertical-align: top;
   ">
-<h3>Skills:</h3>
+<h3>스킬:</h3>
 <<for _i to 0; _i < $skills.length; _i ++>><<nobr>>
 <<capture _i>>
     <<if $skills[_i].hidden == false>>
         <h3><<print $skills[_i].name>>: 
-        <<if $skills[_i].level is 0>>inexperienced
-        <<elseif $skills[_i].level is 1>>beginner
-        <<elseif $skills[_i].level is 2>>intermediate
-        <<elseif $skills[_i].level is 3>>expert
-        <<elseif $skills[_i].level is 4>>master
+        <<if $skills[_i].level is 0>>무경험자
+        <<elseif $skills[_i].level is 1>>초보자
+        <<elseif $skills[_i].level is 2>>초보자 이상 전문가 이하
+        <<elseif $skills[_i].level is 3>>전문가
+        <<elseif $skills[_i].level is 4>>마스터
         <</if>>	</h3>
         
         <table class="skill" @data-num="_i" style="width:100%;">
@@ -61,7 +61,7 @@
         </table>
         <<print $skills[_i].description>>
         <br>	
-        Unlocked skill benefits:
+        잠금 해제된 스킬의 능력:
         <br>
         <<for _iSkillLevel to 0; _iSkillLevel < $skills[_i].level; _iSkillLevel ++>>
             <<capture _iSkillLevel>>
