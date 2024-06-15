@@ -1,11 +1,11 @@
 :: Start [intro] {"position":"100,700","size":"100,100"}
 <<nobr>>
-In Summer Growth, you guide your character through a summer filled with strange happenings and growth, as she tries to find the creator of the experiment she accidentally drank. As time passes, she will have to manage her rate of growth and adapt to everyday life as she does so. 
+'Summer Growth'에서 당신은 그녀가 우연히 마신 실험물의 제작자를 찾기 위해 노력하는 동안 이상한 일들과 성장으로 가득 찬 여름을 보내도록 당신의 캐릭터를 안내합니다. 시간이 지남에 따라, 그녀는 그녀의 성장 속도를 관리하고 일상 생활에 적응해야 할 것입니다.
 <br><br>
-The goal of the game is to keep up with your growing body and make the best of it. As this is a beta, there are very few endings.
+이 게임의 목표는 성장하는 몸을 유지하고 최대한 성장시키는 것입니다. 이것은 베타이기 때문에 엔딩이 거의 없습니다.
 
 <br><br>
-<<link "New Game" "startSettings">><<set $gameStarted to true>><</link>><br><br>
+<<link "새 게임 시작하기" "startSettings">><<set $gameStarted to true>><</link>><br><br>
 
 <</nobr>>
 
