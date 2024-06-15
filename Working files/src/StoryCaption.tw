@@ -23,11 +23,11 @@
     <<script>>
         if (setup.isOutfitTight()) {
             const tightClothesSlots = setup.getTightOutfitClothesArray().map(clothes => clothes.slot);
-            State.temporary.outfitTightWarning = 'These clothes are too tight: ' + tightClothesSlots.join(' ');
+            State.temporary.outfitTightWarning = '이 옷들이 현재 너무 꽉 낍니다: ' + tightClothesSlots.join(' ');
         }
     
         if (setup.isOutfitNude()) {
-            State.temporary.outfitNudeWarning = `You're practically nude! Get some clothes on! You're missing the following: ` + setup.getNudeOutfitSlots().join(' ');
+            State.temporary.outfitNudeWarning = `지금 사실상 나체네요! 옷을 좀 입으세요! 다음 옷이 없습니다: ` + setup.getNudeOutfitSlots().join(' ');
         }
     <</script>>
     
@@ -41,7 +41,7 @@
     </div>
 <</liveblock>>
 
-<<set _lactationWarning to "Your breasts are getting full.">>
+<<set _lactationWarning to "가슴에 젖이 거의 다 찼습니다.">>
 <<if $lactationUnlocked>>
 	<<if $breastsFullness == "overflowing">>
     	<p id="warning"><img src="https://raw.githubusercontent.com/BobdyBuilder/SummerGrowth/main/Art%20assets/Icons/LactationOverflowingIcon.png" @title="_lactationWarning"> 
