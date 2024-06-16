@@ -55,8 +55,8 @@
 <div id="log">
 <table id="logTable">
   <tr>
-    <th>Notes</th>
-    <th><<if $log.length > 0>><<link "Clear log">>	
+    <th>알림</th>
+    <th><<if $log.length > 0>><<link "알림 지우기">>	
 			<<for _i to 0; _i < $log.length; _i ++>>
 			  <<capture _i>>
 				<<set $deletedLog.push($log[_i])>>

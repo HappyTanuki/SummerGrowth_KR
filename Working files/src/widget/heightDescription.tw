@@ -3,52 +3,52 @@
 <<widget "heightDescription">>
 
 <<if $height <= 150>>
-At <<heighNumeral>> tall, you are really short! People can just look straight over your head and a almost everything is out of reach. Buying clothes is also a hassle, since sometimes you've got more luck looking in the children's section!
+키가 <<heighNumeral>>면, 당신은 키가 매우 작네요! 사람들은 당신 정수리를 쉽게 볼 수 있을 것이고, 당신은 거의 모든 것이 너무 높을 겁니다. 옷을 사는 것조차 번거로운데, 가끔은 어린이용 의류 코너에서 맞는 옷을 찾기 쉬울 때도 있기 때문이죠!
 
 <<elseif $height <= 165>>
-At <<heighNumeral>> tall, you are pretty short. You are used to being the shortest in the room, or at least one of the shortest. Buying clothes is also a hassle, though most stores will have something your size.
+키가 <<heighNumeral>>면, 당신은 꽤 작네요. 당신은 방에서 가장 작거나 적어도 가장 키가 작은 사람 중 하나가 되는 것에 익숙할 겁니다. 옷을 사는 것도 번거롭겠지만 대부분의 가게에는 당신의 사이즈가 있긴 할 겁니다.
 
 <<elseif $height <= 175>>
-At <<heighNumeral>> tall, you are pretty average. It brings no issues to your daily life, but no advantages either.
+키가 <<heighNumeral>>면, 당신은 꽤 평균입니다. 일상생활에 아무런 불편함이 없겠네요, 아무 이점 또한 없겠지만요.
 
 <<elseif $height <= 185>>
-At <<heighNumeral>> tall, you are pretty tall. You often find yourself having to look down a bit to talk to people, but nothing out of the ordinary. 
+키가 <<heighNumeral>>면, 당신은 꽤 큽니다. 당신은 종종 사람들과 대화하기 위해 약간 아래를 내려다봐야 하는 자신을 발견하지만, 항상 있는 일입니다.
 
 <<elseif $height <= 200>>
-At <<heighNumeral>> tall, you are really tall! Most of the time you're the tallest in the room, and people are forced to look up a bit so they can talk to you. Buying clothes is a hassle, however, since few stores carry size that fit you properly. 
+키가 <<heighNumeral>>면, 당신은 진짜 크네요! 대부분의 경우 당신이 방에서 가장 키가 크며, 사람들은 당신에게 이야기할 수 있도록 약간 고개를 들어야 합니다. 또한 자신에게 맞는 사이즈를 판매하는 가게는 거의 없기 때문에 옷을 사는 것은 번거롭습니다.
 
 <<elseif $height <= 230>>
-At <<heighNumeral>> tall, you are incredibly tall! You are always the tallest person in the room and people have to crane their necks to even talk to you! At this height, doorways are a constant risk to your forehead. Buying clothes is also a hassle, since only a few online stores even carry decent sizes for your build. 
+키가 <<heighNumeral>>면, 당신은 말도 안되게 크네요! 당신은 항상 방에서 가장 키가 큰 사람이고 사람들은 당신에게 말을 걸기 위해 그들의 목을 뻗을 수 밖에 없습니다! 이 키에서, 출입구는 당신의 이마에 지속적인 위험 요소입니다. 단지 몇 개의 온라인 옷 가게만이 당신의 체격에 알맞은 크기를 가지고 있기 때문에, 옷을 사는 것 또한 번거롭습니다.
 
 <<elseif $height <= 250>>
-At <<heighNumeral>> tall, you are gigantic! You are always easily the tallest person in the room and people have to take a step back to even talk to you! At this height, doorways are a constant issue, as you are forced to duck in order to cross them. And that is when you can even stand up straight in a room! Buying clothes is a major issue, since very few online stores carry anything that will fit. 
+키가 <<heighNumeral>>면, 당신은 거대합니다! 당신은 언제나 방에서 가장 키가 큰 사람이고 사람들은 당신에게 말을 걸기 위해 한 발짝 뒤로 물러서야 합니다! 이 정도 높이에서는, 당신이 그 문들을 건너기 위해 몸을 피할 수 밖에 없기 때문에, 출입구가 지속적으로 문제가 됩니다. 그리고 그 때는 당신이 방에서 똑바로 서 있을 수도 있는 때입니다! 옷을 사는 것은 주요한 문제인데, 왜냐하면 극소수의 온라인 옷 가게가 당신에게 맞는 옷을 가지고 있기 때문입니다.
 
 <<elseif $height <= 300>>
-At <<heighNumeral>> tall, you are gigantic! You might just be the tallest living person, if not the tallest person ever. You are always easily the tallest person in the room, with some other barely reaching your stomach! Being indoors is a massive hassle as you can rarely stand up straight, and you basically have to crawl to get through doors. All your clothing now has to be custom-made to even have a chance of fitting!
+키가 <<heighNumeral>>면, 당신은 거대합니다! 당신은 살아있는 사람들 중에서 가장 키가 큰 사람일 수도 있습니다. 당신은 항상 방에서 쉽게 가장 큰 사람이고, 다른 사람들의 키는 거의 배에도 닿지 않습니다. 실내에 있는 것은 매우 번거로운 일인데, 당신은 거의 똑바로 서 있을 수 없고, 기본적으로 문을 통과하기 위해 기어야만 하기 때문입니다. 이제 당신은 모든 옷이 맞춤 제작되어야 입을 수 있는 기회를 가질 수 있습니다!
 
 <<elseif $height <= 350>>
-At <<heighNumeral>> tall, you are a true giant! There's no doubt you're the tallest person ever as you tower over everyone, wherever you go. Outside, you are always the center of attention. People want to take pictures of you or just stand in awe of your stature. Some of them don't even reach your hip! Indoors are a massive hassle as you can never stand up straight, and you basically are forced to crawl through doors. All your clothing now must be custom-made, at unprecedented sizes!
+키가 <<heighNumeral>>면, 당신은 진짜 거인입니다! 당신이 어디를 가든지, 모든 사람들 위에 우뚝 솟을 때 당신이 가장 키가 큰 사람이라는 것은 의심의 여지가 없습니다. 밖에서는, 항상 당신이 관심의 중심입니다. 사람들은 당신의 사진을 찍거나 단지 당신의 키에 감탄하기를 원합니다. 그들 중 일부는 심지어 당신의 엉덩이까지도 키가 닿지 않습니다! 실내에서 당신은 결코 똑바로 서 있을 수 없고, 기본적으로 문을 통해 기어 들어가야 하기 때문에 엄청난 번거로움이 있습니다. 이제 당신의 모든 옷은 전례 없는 크기로 주문 제작되어야 합니다!
 
 <<elseif $height <= 450>>
-At <<heighNumeral>> tall, you are a towering giant! Your height is utterly unprecedented, and you are always sure to be the center of attention even at a distance. When you go outside, people stand in awe of you, not sure whether to ask for a picture or hide. At this point, even ordinary "tall" people barely stand taller than your thighs! Being indoors is next to impossible at this juncture, as you can never stand up straight and you have no option but crawl to get through doors. All your clothing now has to be custom-made, and can hardly be recognized as something a person would wear!
+키가 <<heighNumeral>>면, 당신은 우뚝 솟은 거인입니다! 당신의 키는 전례가 없는 것이고, 멀리 떨어져 있어도 항상 관심의 중심이 될 것이라고 확신합니다. 당신이 밖에 나갈 때, 사람들은 사진을 요청해야 할지 숨어야 할지 확신하지 못한 채, 당신을 경외하며 서 있습니다. 이 시점에서, 보통의 "키가 큰" 사람들도 당신의 허벅지보다 겨우 키가 크답니다! 실내에 있는 것은 불가능에 가까운데, 왜냐하면 당신은 결코 똑바로 서 있을 수 없고 문을 통과하기 위해 기어갈 수밖에 없기 때문입니다. 이제 당신의 모든 옷은 주문 제작되어야 하고, 사람이 입는 옷으로 거의 인식할 수 없을 정도로 큽니다!
 
 <<elseif $height <= 650>>
-At <<heighNumeral>> tall, you are a taller than some buildings! Your height is utterly unprecedented, and you're always sure to be the center of attention wherever you go... and its adjacent areas. Ordinary people look at you in awe, having to crane their necks to even understand how tall you are. At this point, they barely reach your knees! You can't go inside anymore as you simply won't fit in constructions anymore. Still, being able to tower over buildings is somewhat of a compensation for that...
+키가 <<heighNumeral>>면, 당신은 어떤 빌딩들보다도 큽니다! 당신의 키는 전례가 전혀 없는 것이고, 당신이 어디를 가더라도 항상 관심의 중심이 될 것이 확실합니다... 그리고 그 인접한 지역엔. 보통 사람들은 당신의 키가 얼마나 큰지 이해하기 위해 목을 뻗은 채 당신을 경외할 겁니다. 이 시점에서, 그들의 키는 겨우 무릎까지 닿습니다! 당신은 더 이상 건축물에 들어가지 않을 것이기 때문에 더 이상 실내로 들어갈 수 없습니다. 그럼에도 불구하고, 건물 사이에 우뚝 솟을 수 있다는 것은 그것에 대한 일종의 보상입니다...
 
 <<elseif $height <= 1000>>
-At <<heighNumeral>> tall, you tower over everything around! You've been told that people even travel from abroad to see you, with only the bravest of them daring to ask you for a picture! Ordinary people are now barely bigger than your head. You could easily hold one in your hand, if you wanted to! With your towering size you do have to be careful though; you wouldn't want to accidentally damage some buildings, right?
+키가 <<heighNumeral>>면, 당신은 주변 어느것 보다도 키가 큽니다! 당신은 심지어 사람들이 당신을 보기 위해 해외에서 여행을 오지만, 그들 중 가장 용감한 사람들만 감히 사진을 요구한다고 들었습니다. 보통 사람들은 이제 당신의 머리 크기보다 크지 않습니다. 원한다면, 당신은 쉽게 손에 한 명을 집을 수 있습니다! 하지만 당신의 우뚝 솟은 크기로는 당신은 조심해야 합니다; 실수로 몇몇 건물들을 손상시키고 싶지는 않을 것입니다, 그렇죠?
 
 <<elseif $height <= 1500>>
-At <<heighNumeral>> tall, you're taller than most buildings in town! Whenever you stroll across the town you see the people running and hiding, with only the bravest daring to get closer. Most of them are not even as tall as your fingers! Even your normal footsteps make buildings shake, and you leave footprints wherever you go, but hey, you still have to enjoy a stroll every now and then, right?
+키가 <<heighNumeral>>면, 당신은 마을 대부분의 건물들보다 키가 큽니다! 당신이 마을을 가로질러 걸을 때마다 오직 용감한 사람들만이 감히 가까이 다가오고 대부분의 사람은 항상 뛰고 숨습니다. 그들 중 대부분은 심지어 당신의 손가락보다도 크지 않습니다! 당신의 평범한 발자취조차도 건물을 흔들게 하고, 당신은 어디를 가든지 발자국을 남깁니다만, 산책은 그래도 즐겨야죠, 그렇죠?
 
 <<elseif $height <= 2000>>
-At <<heighNumeral>> tall, you're a true giant of legends! People come from all continents to see the 8th wonder of the world that you've become, though barely anyone dares to come too close. They barely come up to your ankles, and considering how much force a single step of your gigantic feet delivers, you kind of understand why they tend to hide. Still, a bit of damage to some property is worth having you around, right?
+키가 <<heighNumeral>>면, 당신은 전설 속의 거인입니다! 모든 대륙에서 당신이라는 세계 8대 불가사의를 보러 오지만, 아무도 감히 너무 가까이 다가오지 못합니다. 그들은 발목까지도  거의 닿지 못하고, 당신의 거대한 발 한 발이 얼마나 많은 힘을 전달하는지를 생각하면, 왜 그들이 숨는 경향이 있는지 이해할 수 있을 것입니다. 그래도, 어떤 재산이 약간의 손상을 입더라도 당신이 갖는 가치가 더 높습니다, 그렇죠?
 
 <<elseif $height <= 5000>>
-At <<heighNumeral>> tall, you are bigger than the protagonists of those cheesy sci-fi movies from the 50s! The entire town has become your playground as most people have either moved away or moved in to gawk at your miraculous height. Nobody even reaches your ankle anymore, yet some of them still approach you, even though your feet could level buildings without you even noticing! After all, it's a bit hard to notice small things like stadiums of that when you are THIS tall.
+키가 <<heighNumeral>>면, 당신은 50년대의 싸구려 공상과학 영화의 주인공들보다 더 큽니다! 대부분의 사람들이 당신의 기적 같은 키에 집을 떠나거나 거주하면서 마을 전체가 당신의 놀이터가 되었습니다. 아무도 더 이상 당신의 발목에조차 닿지 않지만, 그들 중 일부는 당신이 알지도 못하는 사이에 당신의 발이 건물을 밟아 평평하게 만들 수 있음에도 불구하고 여전히 당신에게 다가옵니다! 결국, 당신이 이 정도 키쯤 되면 경기장과 같은 작은 것들을 알아차리는 것은 조금 어렵습니다.
 
 <<else>>
-At <<heighNumeral>> tall, your height no longer makes any sense! You can walk out of the town and not even notice. It feels kind of lonely, actually, as people are no more than ants at this point! Completely detached from your former reality, survival has become somewhat of an issue since your mere nourishment can cause environmental imbalance on a whim. But hey, at least you get a nice massage from lightning when it rains.
+키가 <<heighNumeral>>면, 당신의 키는 말이 안 됩니다! 걷기만 해도 눈치도 못 채는 사이에 마을을 벗어날 거고, 사실 좀 외로울 겁니다. 사람들이 개미에 지나지 않기 때문이죠. 예전의 삶과는 별개로, 생존 또한 다소 문제가 되었는데, 충동적인 영양분 섭취가 환경 불균형을 초래할 수 있기 때문입니다. 하지만 적어도 비가 올 때는 벼락으로 멋진 맛사지를 받을 수 있을 겁니다.
 <</if>>
 
 <</widget>>

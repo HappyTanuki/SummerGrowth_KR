@@ -4,14 +4,14 @@
 
 <<if $lips < 0>><<set $lips to 0>><</if>>
 
-<<if $lips <= 0>>thin
-<<elseif $lips <= 1>>average
-<<elseif $lips <= 2>>plump
-<<elseif $lips <= 3>>kissable
-<<elseif $lips <= 4>>sensual
-<<elseif $lips <= 5>>thick
-<<elseif $lips <= 6>>incredibly full
-<<else>>huge
+<<if $lips <= 0>>얇은
+<<elseif $lips <= 1>>
+<<elseif $lips <= 2>>포동포동한
+<<elseif $lips <= 3>>키스하고 싶게 만드는
+<<elseif $lips <= 4>>관능적인
+<<elseif $lips <= 5>>두꺼운
+<<elseif $lips <= 6>>믿을 수 없을 정도로 두꺼운
+<<else>>큰
 <</if>>
 
 

@@ -27,9 +27,9 @@
 <table id="store">
   <tr>
     <th>Type</th>
-	<th>Size</th>
-	<th>Time to make in minutes</th>
-	<th>Fabric needed</th>
+	<th>크기</th>
+	<th>만드는데 걸리는 분</th>
+	<th>필요한 천 갯수</th>
 	<th></th>
   </tr>
 
@@ -78,7 +78,7 @@
 	<</script>><</timed>>
   </td>
     <td>
-  <<link "craft" "sewing">>
+  <<link "만들기" "sewing">>
   	<<if $fabric >= _newProject.fabric>>	
   	<<set _newCraftingProject to {
 			clothing: setup.allClothes[_newProject.i],
@@ -95,7 +95,7 @@
 		console.log(State.temporary.newCraftingProject);
 	<</script>>
 	<<else>>
-	Not enough fabric
+	천이 모자랍니다
 	<</if>>
   <</link>>
   </td>

@@ -3,11 +3,11 @@
 
 <<widget "BreastsWeightDescription">>
 
-<<if $_breastsRandomized >= ($muscle + 20 * $strengthMod)>>Your gigantic breasts have gotten so large you are completely immobilized by them...
-<<elseif $_breastsRandomized >= ($muscle + 40 * $strengthMod)>>You're barely able to carry the weight of your breast! They're gotten so incredibly heavy that soon you won't be able to walk around with them anymore!
-<<elseif $_breastsRandomized >= ($muscle + 10 * $strengthMod)>>The weight of your breasts is almost constantly on your mind as they feel incredibly heavy! You try to rest them on something whenever you can, happy to have that relief, if only momentarily.
-<<elseif $_breastsRandomized >= ($muscle + 5 * $strengthMod)>>Your breasts weight quite a lot, and you're happy when you can give your back some rest at the end of the day. Maybe some exercises could help strengthen your back?
-<<elseif $_breastsRandomized >= ($muscle * $strengthMod)>> You do feel the weight of your breasts from time to time, especially when you are physically active. Nothing a bit of care can't fix!
+<<if $_breastsRandomized >= ($muscle + 20 * $strengthMod)>>당신의 거대한 가슴은 너무 거대해져서 그 무게 때문에 당신은 완전히 움직일 수 없게 되고 말았습니다...
+<<elseif $_breastsRandomized >= ($muscle + 40 * $strengthMod)>>당신은 간신히 가슴의 무게를 버티고 있습니다! 가슴이 너무 무거워져서 조만간 당신은 더이상 걷지 못하게 될 지도 모릅니다!
+<<elseif $_breastsRandomized >= ($muscle + 10 * $strengthMod)>>당신의 가슴은 엄청나게 무거워서 가슴의 무게가 거의 끊임없이 여러분의 마음에 걸립니다! 여러분은 할 수 있을 때마다 가슴을 무엇인가 위에 올려놓으려고 노력하고, 비록 잠깐이나마 무게를 덜게 되어 기뻐합니다.
+<<elseif $_breastsRandomized >= ($muscle + 5 * $strengthMod)>>당신의 가슴은 꽤 무겁고, 하루가 끝날 때쯤의 허리를 쉬는 시간은 행복합니다. 어쩌면 운동을 조금 하는 게 허리를 튼튼하게 하는 데 도움이 될까요?
+<<elseif $_breastsRandomized >= ($muscle * $strengthMod)>> 당신은 가끔 당신 가슴의 무게를 느낄 수 있는데. 특히 당신이 격하게 움직일 때 그렇습니다. 조금 조심하지 않으면 가슴이 안 고정됩니다!
 <</if>>
 
 <</widget>>

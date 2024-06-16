@@ -2,11 +2,11 @@
 <<nobr>>
 <<widget "bodyHairDescription">>
 
-<<if $bodyHairMod >=10>> Covering your entire body is a thick layer of coarse, curly fur that someone could easily lose their hands in! Any clothing you wear is puffed up from this thick layer, and sometimes a strand of it shows through. Your arms and chests in particular are completely covered in this <<print $hairColor>> fur.
-<<elseif $bodyHairMod >= 8>> Almost all if your body is covered in a thick layer of coarse, <<print $hairColor>> hair. It makes you look very hairy, and anyone could easily stroke it, especially on your stomach and arms.
-<<elseif $bodyHairMod >= 6>> A dense layer of body hair covers your skin. Its course and <<print $hairColor>>, covering most of your arms, legs, torso and genitals. It gives you a really wild look!
-<<elseif $bodyHairMod >= 4>> An average amount of body hair covers your body. It can look a bit unkempt if you don't maintain it, but it's never too bothersome.
-<<elseif $bodyHairMod >= 2>> A thin dusting of body hair covers your body, though it's easily missed. An advantage of this is that you barely have to trim it, should you want to appear clean shaven.
+<<if $bodyHairMod >=10>> 몸 전체가 누군가 쉽게 그들의 손을 잃을 수 있는 거칠고 곱슬곱슬한 털의 두꺼운 층으로 덮여 있습니다. 옷은 이 두꺼운 털 때문에 부풀어 오르고, 때때로 몇 가닥의 털이 뚫고 나오기도 합니다. 특히 당신의 팔과 가슴은 <<print $hairColor>>색의 털로 완전히 덮여 있습니다.
+<<elseif $bodyHairMod >= 8>> 당신 몸의 거의 모든 부분이 <<print $hairColor>>색 거친 털의 두꺼운 층으로 덮여 있습니다. 여러분은 매우 털이 많고, 특히 여러분의 배와 팔은 누구나 쉽게 쓰다듬을 수 있습니다.
+<<elseif $bodyHairMod >= 6>> 촘촘한 털층이 당신의 피부를 덮고 있습니다. <<print $hairColor>>색 거친 털은 당신의 팔과 다리, 상체와 성기를 거의 덮고 있고, 이것은 당신을 정말 짐승같이 보이게 합니다!
+<<elseif $bodyHairMod >= 4>> 평균적인 양의 체모가 당신의 몸을 덮습니다. 관리하지 않으면 조금 너저분해 보일 수 있지만 번거로울 정도는 아닙니다.
+<<elseif $bodyHairMod >= 2>> 놓치기 쉬울 정도로 얇은 털이 몸을 덮고 있습니다. 깨끗하게 면도한 것처럼 보이려면 손질을 거의 하지 않아도 된다는 것이 장점입니다.
 <<else>>
 <</if>>
 

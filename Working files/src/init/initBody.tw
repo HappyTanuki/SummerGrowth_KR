@@ -50,9 +50,9 @@
 <<set $balls to 0>>
 
 /* Looks */
-<<set $eyeColor to "red">>
+<<set $eyeColor to "빨간">>
 <<set $bodyHairMod to 0>>
-<<set $hairColor to "black">>
+<<set $hairColor to "검은">>
 <<set $tongueLenght to 0>>
 <<set $lips to 0>>
 <<set $hips to 0>>
@@ -64,7 +64,7 @@
 <<set $legLenghtMod to 1>>
 
 <<set $breastsSizeFormat to "USA">>
-<<set $measurementSystem to "imperial">>
+<<set $measurementSystem to "metric">>
 
 <<set $topSize to $muscle + $fat + $breasts>>
 <<set $bottomSize to $muscle + $fat + $ass>>

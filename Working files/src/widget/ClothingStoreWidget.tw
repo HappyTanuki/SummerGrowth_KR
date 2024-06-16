@@ -14,13 +14,13 @@ console.log(State.temporary.filteredStoreClothes);
 <table id="store">
     <tr>
         <td>
-            Show slot:<br>
+            착용 부위:<br>
             <<listbox "$shoppingSlot" autoselect>>
-                <<optionsfrom ['-', 'top', 'bottom', 'underwear', 'overwear', 'bra', 'shoes']>>
+                <<optionsfrom ['-', '상의', '하의', '속옷', '외투', '브라', '신발']>>
             <</listbox>>
         </td>
         <td>
-            Show only with style:<br>
+            옷 스타일로 필터링:<br>
             <<set _stylesCopy to [...setup.allStyles]>>
             <<set _stylesCopy.unshift('All styles')>>
             <<listbox "$shoppingStyle" autoselect>>
@@ -28,7 +28,7 @@ console.log(State.temporary.filteredStoreClothes);
             <</listbox>>
         </td>
         <td>
-            Show only with bonus:<br>
+            보너스로 필터링:<br>
             <<set _bonusCopy to function () {
                 var arr = ['-'];
                 console.log("bonusCopy info:");
@@ -82,11 +82,11 @@ setup.setClothesTable(clothes);
 
 <table id="store">
   <tr>
-    <th>Clothing piece</th>
-    <th>Price</th>
-	<th>Size</th>
-    <th>bonuses</th>
-    <th>Style</th>
+    <th>이름</th>
+    <th>가격</th>
+	<th>사이즈</th>
+    <th>추가 효과</th>
+    <th>스타일</th>
     <th></th>
   </tr>    
     <<for _i to 0; _i < _filteredStoreClothes.length; _i ++>>
@@ -104,7 +104,7 @@ setup.setClothesTable(clothes);
                 <td><<print  setup.getReadableArchetypesFromClothing(_filteredStoreClothes[_i])>></td>
                 <td>
                     <<if setup.getPriceFromClothing(_filteredStoreClothes[_i]) <= $money>>
-                        <<link 'buy'>>
+                        <<link '구입'>>
                             <<set $money -= setup.getPriceFromClothing(_filteredStoreClothes[_i])>>  
                             <<set _filteredStoreClothes[_i].id to Date.now()>>
                             <<if _isOnline == false>>                                    
@@ -113,7 +113,7 @@ setup.setClothesTable(clothes);
                                     console.log('User bought: ');
                                     console.log(State.temporary.filteredStoreClothes[State.temporary.i]);
                                     if (!Dialog.isOpen()) {
-                                        new Wikifier(Dialog.setup('Item bought'), 'You added the <<print _filteredStoreClothes[_i].name>> to your wardrobe');
+                                        new Wikifier(Dialog.setup('물품 구매함!'), '옷장에 <<print _filteredStoreClothes[_i].name>>가 추가됐습니다');
                                         Dialog.open();
                                         
                                         $('.macro-live').trigger(':liveupdateinternal'); /* update to refresh money */
@@ -125,7 +125,7 @@ setup.setClothesTable(clothes);
                                     console.log('User bought: ');
                                     console.log(State.temporary.filteredStoreClothes[State.temporary.i]);
                                     if (!Dialog.isOpen()) {
-                                        new Wikifier(Dialog.setup('Item bought'), 'The <<print _filteredStoreClothes[_i].name>> will be delivered soon.');
+                                        new Wikifier(Dialog.setup('물품 구매함!'), '곧 <<print _filteredStoreClothes[_i].name>> 가 배달됩니다.');
                                         Dialog.open();
                                         
                                         $('.macro-live').trigger(':liveupdateinternal'); /* update to refresh money */
@@ -134,7 +134,7 @@ setup.setClothesTable(clothes);
                             <</if>>                                                              
                         <</link>>
                     <<else>>
-                        Too expensive
+                        돈이 모자랍니다.
                     <</if>>
                 </td>
             </tr>   

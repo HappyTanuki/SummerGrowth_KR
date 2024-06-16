@@ -3,20 +3,20 @@
 <<nobr>>
 <<addMinutes 5>>
 
-<span class="important">An outfit needs to have the same bonus on two pieces of clothing to apply. Clothing fit is determined by its size, but some body features can also make certain pieces with the right size not fit; very big breasts, for example. The icon after the size indicates how it fits you. green is a perfect fit, orange a tight fit, and red means it's either too big or too small.</span>
+<span class="important">의상은 두 벌의 옷에 동일한 보너스가 있어야 보너스 효과가 적용됩니다. 옷의 착용감은 옷의 크기에 의해 결정되지만, 어떤 신체 특징들은 몸에 알맞은 크기여도, 예를 들어 매우 큰 가슴과 같은 신체 특징은 옷들을 맞지 않게 만들 수도 있습니다. 사이즈 뒤에 있는 아이콘은 여러분에게 어떻게 맞는지를 나타냅니다. 초록색은 완벽한 착용감, 주황색은 딱 맞는 착용감, 빨간색은 너무 크거나 작다는 것을 의미합니다.</span>
 
 <span id="outfitTable">
 <table id="store">
   <tr>
-    <th>Type</th>
-    <th>Current item</th>
-	<th>Size needed</th>
-    <th>Bonuses</th>
-    <th>Fit</th>
-    <th>Style</th>
+    <th>종류</th>
+    <th>현재 착용</th>
+	<th>필요한 사이즈</th>
+    <th>보너스</th>
+    <th>사이즈</th>
+    <th>스타일</th>
   </tr>  
   <tr>
-    <td>Top</td>
+    <td>상의</td>
 	<td>
     	<<if $outfit.top() == null || $outfit.top() === setup.emptyClothes>>
         	<<set _topName to '-'>>
@@ -26,14 +26,14 @@
     	<<link _topName>>
         <<script>>
           if (Dialog.isOpen() == false) {
-          var dialog = Dialog.setup("Choose top - Size needed: " + setup.playerSizeNeeded('top'));
-          new Wikifier(dialog, "<<clothingSelection 'top'>>");
+          var dialog = Dialog.setup("Choose top - Size needed: " + setup.playerSizeNeeded('상의'));
+          new Wikifier(dialog, "<<clothingSelection '상의'>>");
           Dialog.open();
           }
           <</script>>
         <</link>>
     </td>
-    <td><<print setup.playerSizeNeeded('top')>></td>
+    <td><<print setup.playerSizeNeeded('상의')>></td>
     <td class="clothingBonuses">
         	<<print setup.getReadableBonusFromClothing($outfit.top(), true)>>
     </td>
@@ -45,7 +45,7 @@
     </td>
   </tr>
     <tr>
-    <td>Bottom</td>
+    <td>하의</td>
 		<td>
         <<if $outfit.bottom() == null || $outfit.bottom() === setup.emptyClothes>>
         	<<set _bottomName to '-'>>
@@ -55,14 +55,14 @@
     	<<link _bottomName>>
         <<script>>
           if (Dialog.isOpen() == false) {
-          var dialog = Dialog.setup("Choose bottom - Size needed: " + setup.playerSizeNeeded('bottom'));
-          new Wikifier(dialog, "<<clothingSelection 'bottom'>>");
+          var dialog = Dialog.setup("Choose bottom - Size needed: " + setup.playerSizeNeeded('하의'));
+          new Wikifier(dialog, "<<clothingSelection '하의'>>");
           Dialog.open();
           }
           <</script>>
         <</link>>    	
     </td>
-    <td><<print setup.playerSizeNeeded('bottom')>></td>
+    <td><<print setup.playerSizeNeeded('하의')>></td>
     <td class="clothingBonuses">
         	<<print setup.getReadableBonusFromClothing($outfit.bottom(), true)>>
     </td>
@@ -74,7 +74,7 @@
     </td>
   </tr>
     <tr>
-    <td>Underwear</td>
+    <td>속옷</td>
 		<td>
         <<if $outfit.underwear() == null || $outfit.underwear() === setup.emptyClothes>>
         	<<set _underwearName to '-'>>
@@ -84,14 +84,14 @@
     	<<link _underwearName>>
         <<script>>
           if (Dialog.isOpen() == false) {
-          var dialog = Dialog.setup("Choose underwear - Size needed: " + setup.playerSizeNeeded('underwear'));
-          new Wikifier(dialog, "<<clothingSelection 'underwear'>>");
+          var dialog = Dialog.setup("Choose underwear - Size needed: " + setup.playerSizeNeeded('속옷'));
+          new Wikifier(dialog, "<<clothingSelection '속옷'>>");
           Dialog.open();
           }
           <</script>>
         <</link>>
     </td>
-    <td><<print setup.playerSizeNeeded('underwear')>></td>
+    <td><<print setup.playerSizeNeeded('속옷')>></td>
     <td class="clothingBonuses">
     	<<print setup.getReadableBonusFromClothing($outfit.underwear(), true)>>
     </td>
@@ -103,7 +103,7 @@
     </td>
   </tr>
     <tr>
-    <td>Bra</td>
+    <td>브라</td>
 		<td>
     	<<if $outfit.bra() == null || $outfit.bra() === setup.emptyClothes>>
         	<<set _braName to '-'>>
@@ -113,14 +113,14 @@
     	<<link _braName>>
         <<script>>
           if (Dialog.isOpen() == false) {
-          var dialog = Dialog.setup("Choose bra - Size needed: " + setup.playerSizeNeeded('bra'));
-          new Wikifier(dialog, "<<clothingSelection 'bra'>>");
+          var dialog = Dialog.setup("Choose bra - Size needed: " + setup.playerSizeNeeded('브라'));
+          new Wikifier(dialog, "<<clothingSelection '브라'>>");
           Dialog.open();
           }
           <</script>>
         <</link>>
     </td>
-    <td><<print setup.playerSizeNeeded('bra')>></td>
+    <td><<print setup.playerSizeNeeded('브라')>></td>
     <td class="clothingBonuses">
     	<<print setup.getReadableBonusFromClothing($outfit.bra(), true)>>
     </td>
@@ -132,7 +132,7 @@
     </td>
   </tr>
     <tr>
-    <td>Overwear</td>
+    <td>외투</td>
 		<td>
     	<<if $outfit.overwear() == null || $outfit.overwear() === setup.emptyClothes>>
         	<<set _overwearName to '-'>>
@@ -142,14 +142,14 @@
     	<<link _overwearName>>
         <<script>>
           if (Dialog.isOpen() == false) {
-          var dialog = Dialog.setup("Choose overwear - Size needed: " + setup.playerSizeNeeded('overwear'));
-          new Wikifier(dialog, "<<clothingSelection 'overwear'>>");
+          var dialog = Dialog.setup("Choose overwear - Size needed: " + setup.playerSizeNeeded('외투'));
+          new Wikifier(dialog, "<<clothingSelection '외투'>>");
           Dialog.open();
           }
           <</script>>
         <</link>>
     </td>
-    <td><<print setup.playerSizeNeeded('overwear')>></td>
+    <td><<print setup.playerSizeNeeded('외투')>></td>
     <td class="clothingBonuses">
     	<<print setup.getReadableBonusFromClothing($outfit.overwear(), true)>>
     </td>
@@ -161,7 +161,7 @@
     </td>
   </tr>
   <tr>
-    <td>Shoes</td>
+    <td>신발</td>
 		<td>
     	<<if $outfit.shoes() == null || $outfit.shoes() === setup.emptyClothes>>
         	<<set _shoesName to '-'>>
@@ -171,14 +171,14 @@
     	<<link _shoesName>>
         <<script>>
           if (Dialog.isOpen() == false) {
-          var dialog = Dialog.setup("Choose footwear - Size needed: " + setup.playerSizeNeeded('shoes'));
-          new Wikifier(dialog, "<<clothingSelection 'shoes'>>");
+          var dialog = Dialog.setup("Choose footwear - Size needed: " + setup.playerSizeNeeded('신발'));
+          new Wikifier(dialog, "<<clothingSelection '신발'>>");
           Dialog.open();
           }
           <</script>>
         <</link>>
     </td>
-    <td><<print setup.playerSizeNeeded('shoes')>></td>
+    <td><<print setup.playerSizeNeeded('신발')>></td>
     <td class="clothingBonuses">
     	<<print setup.getReadableBonusFromClothing($outfit.shoes(), true)>>
     </td>
@@ -196,7 +196,7 @@
 
 <br><br>
 
- Your current bonuses are:
+ 현재 적용된 의상 보너스 효과는 다음과 같습니다:
 <br><span id="appliedBonuses"></span>
 
 <<timed 0s>>
@@ -212,6 +212,6 @@
 <</nobr>>
 <</liveblock>>
 
-<<link "Back" "Bedroom">><</link>>
+<<link "돌아가기" "Bedroom">><</link>>
 
 

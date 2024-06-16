@@ -10,106 +10,106 @@
 <<if $dick <=2>>
 
 <<elseif $dick <=4>>
-Your penis looks incredibly small, at only <<numeralConversion $tempDick>> long when flaccid. 
+당신의 자지는 말도 안 되게 작습니다, 노발기 시 고작 <<numeralConversion $tempDick>>밖에 안 되네요. 
 
 <<elseif ($dick * $heightMod) <=8>>
 
-Your penis looks surprisingly small, at only <<numeralConversion $tempDick>> long when flaccid. 
+당신의 자지는 놀랍도록 작습니다, 노발기 시 고작 <<numeralConversion $tempDick>>밖에 안 되네요.
 
 <<elseif $dick <=10>>
-You have a decent penis at <<numeralConversion $tempDick>> long when flaccid. 
+당신은 노발기 시 <<numeralConversion $tempDick>>인 남부럽지 않은 크기의 자지를 가지고 있습니다.
 
 <<elseif $dick <=14>>
-You have a pretty big penis, at <<numeralConversion $tempDick>> long when flaccid! When it is erect, it shows a bit of a bulge - which you have to be mindful of. 
+당신은 노발기 시에 <<numeralConversion $tempDick>>나 되는 꽤 큰 자지를 가지고 있습니다! 발기하면 약간 고간이 불룩해지겠네요 - 조심하셔야겠어요.
 
 <<elseif $dick <=18>>
-Your <<numeralConversion $tempDick>> long flaccid penis feels pretty hefty to you. If you're not mindful of the clothes you buy, it can result in a pretty clear bulge, though that's not really an issue, right?
+당신의 노발기 시 <<numeralConversion $tempDick>>의 자지는 당신에게 있어 꽤 크게 느껴집니다. 구입하는 옷에 주의하지 않으면 굉장히 확실히 보이는 고간의 불룩함을 야기하고 말 겁니다! ..근데 별 문제는 아닌 것 같죠?
 
 <<elseif $dick <=22>>
-Your <<numeralConversion $tempDick>> long flaccid penis looks gigantic on you! No matter the clothing you buy, there will always be a significant bulge that leaves nothing to the imagination.
+당신의 노발기 시 <<numeralConversion $tempDick>>의 극태자지는 당신에게 있어 거대하게 느껴집니다! 어떤 옷을 사더라도 항상 변명의 여지 없는 확실한 고간의 불룩함이 있을 것입니다.
 
 <<elseif $dick <=35>>
-Your <<numeralConversion $tempDick>> long flaccid penis looks more like it belongs on a horse than on you! No matter what you wear, an enormous bulge that leaves nothing to the imagination will be on display, even if you find clothing that can accommodate your considerable meat.
+당신의 노발기 시 <<numeralConversion $tempDick>>에 달하는 말자지는 당신보다는 말에게 어울릴 것 같습니다! 어떤 것을 입어도 변명의 여지 없는 큰 불룩함이 확실히 보일 것입니다. 당신의 그 상당한 묵직함을 수용할 수 있는 옷을 찾아내더라도 말입니다.
 
 <<elseif $dick <=50>>
-Your <<numeralConversion $tempDick>> long flaccid penis easily dangles past your knees! No matter what you wear, that gigantic bulge will leave nothing to the imagination, even if you find clothing that can accommodate your sizeable meat.
+당신의 노발기 시 <<numeralConversion $tempDick>>에 달하는 극태 말자지는 간단히 당신의 무릎 너머까지 늘어집니다! 어떤 것을 입어도 변명의 여지 없는 거대한 불룩함이 확실히 보일 것입니다. 당신의 그 큰 묵직함을 수용할 수 있는 옷을 찾아내더라도 말입니다.
 
 <<elseif $dick <=80>>
-Your <<numeralConversion $tempDick>> long flaccid penis almost reaches the ground and looks completely inhumane to you! It's useless trying to buy clothing for it now, since it simply won't fit any article you are able to buy.
+당신의 무려 <<numeralConversion $tempDick>>에 달하는 노발기 초 극태 말자지는 거의 땅에 닿을 지경이라 사람의 그것처럼 안 보이기 시작했습니다! 이것에 맞는 옷은 어디에서도 살 수 없기 때문에, 이것에 맞는 옷을 사려는 시도는 이제 쓸데없습니다.
 
 <<else>>
-Your <<numeralConversion $tempDick>> long flaccid penis now constantly drags across the ground if you don't actively lift if up. Normally, you'd buy underwear for this, but you're not sure it would even be practical!
+당신의 무려 <<numeralConversion $tempDick>>에 달하는 노발기 초 극태 거대 말자지는 이제 당신이 계속 들어올려 주지 않으면 계속 땅에 끌립니다. 보통은 맞는 속옷을 사겠지만, 이젠 맞는 속옷을 사는것이 실용적인지조차 확신이 안 가는군요!
 <</if>>
 
 <<if $dickErectionMod <= 1.4>>
-When your penis gets erect, it becomes <<numeralConversion $tempDickErect>> long; it's clear you're a shower, not a grower.
+당신의 자지는 발기 시 <<numeralConversion $tempDickErect>>가 됩니다; 당신은 단단해지는 타입이지 커지는 타입은 아닌게 확실해 보이네요.
 <<elseif $dickErectionMod <= 1.6>>
-When your penis gets erect it becomes <<numeralConversion $tempDickErect>> long.
+당신의 자지는 발기 시 <<numeralConversion $tempDickErect>>가 됩니다.
 <<elseif $dickErectionMod <= 1.8>>
-When your penis gets erect, it becomes a pretty impressive <<numeralConversion $tempDickErect>> long; it's clear you're a shower!
+당신의 자지는 발기 시 꽤 인상적인 <<numeralConversion $tempDickErect>>가 됩니다; 당신은 커지는 타입인게 확실하네요!
 <<elseif $dickErectionMod <= 2>>
-When your penis gets erect, it just keeps getting bigger, not stopping until it reaches well over <<numeralConversion $tempDickErect>> long. It's hard to believe an erection can pump it so big!
+당신의 자지는 한번 발기하면, 계속 커지다가 <<numeralConversion $tempDickErect>>의 초 발기가 되어야 겨우 멈춥니다. 발기가 이렇게 크게 된다는 것은 참 믿기 어렵네요!
 <<else>>
-When your penis gets erect, it just keeps going and going, not stopping until it reaches an unbelievable <<numeralConversion $tempDickErect>> long! It's incredibly veiny, every pump making it rise higher and higher!
+당신의 자지는 한번 발기하면, 계속계속 커지다가 말도 안되는 <<numeralConversion $tempDickErect>>의 초 거대 발기가 되어야 겨우 멈춥니다! 혈관이 말도 안되게 여기저기 툭 튀어나와 있고 한번 움찔거릴 때마다 발기 각도는 점점 높아지네요!
 <</if>>
 
 <<if $dickGirthMod <= 0.8>>
-It's surprisingly thin, though, with a girth of <<numeralConversion $tempDickGirth>> when soft and <<numeralConversion $tempDickGirthErect>> when hard.
+그리고 당신 자지의 굵기는 노발기시 <<numeralConversion $tempDickGirth>>, 발기시 <<numeralConversion $tempDickGirthErect>>입니다. 놀랍도록 가는데요?
 <<elseif $dickGirthMod <= 0.9>>
-Its girth is average at <<numeralConversion $tempDickGirth>> when soft, and <<numeralConversion $tempDickGirthErect>> when hard, which is pretty good.
+그리고 당신 자지의 굵기는 노발기시 <<numeralConversion $tempDickGirth>>, 발기시 <<numeralConversion $tempDickGirthErect>>입니다. 괜찮은데요?
 <<elseif $dickGirthMod <= 1>>
-Its girth is fairly impressive at <<numeralConversion $tempDickGirth>> when soft, and <<numeralConversion $tempDickGirthErect>> when hard, making it thicker than most dicks this size.
+그리고 당신 자지의 굵기는 노발기시 꽤 인상적인 <<numeralConversion $tempDickGirth>>, 발기시 <<numeralConversion $tempDickGirthErect>>입니다. 대부분의 비슷한 사이즈의 자지보다 굵네요.
 <<elseif $dickGirthMod <= 1.5>>
-Its girth is incredible at <<numeralConversion $tempDickGirth>> when soft, and <<numeralConversion $tempDickGirthErect>> when hard, making it an incredibly thick log!
+그리고 당신 자지의 굵기는 노발기시 말도 안되는 <<numeralConversion $tempDickGirth>>, 발기시 <<numeralConversion $tempDickGirthErect>>에 달합니다. 엄청 굵은 통나무 같네요!
 <<else>>
-Its girth is humongous at <<numeralConversion $tempDickGirth>> when soft, and <<numeralConversion $tempDickGirthErect>> when hard, making it look almost disproportional!
+그리고 당신 자지의 굵기는 노발기시 거대한 <<numeralConversion $tempDickGirth>>, 발기시 거의 불균형해 보이는 <<numeralConversion $tempDickGirthErect>>에 달하네요!
 <</if>>
 
 <<if $tempDickErect <= 25>> 
 <<elseif $tempDickErect <= 30>> 
-With your length, you might need to watch out a bit with your partners, as you're certainly on the bigger side.
+당신 정도의 길이면, 파트너와 관계를 가질 때 조심하셔야 될지도 모릅니다, 당신은 확실히 '큰 쪽'이니까요!
 <<elseif $tempDickErect <= 35>> 
-With your length, you need to watch out a bit with your partners, as your huge rod could easily be too much for some people!
+당신 정도의 길이면, 파트너와 관계를 가질 때 조심하셔야 합니다, 당신의 큰 몽둥이는 몇몇 사람들에게는 너무 클 수 있을니까요!
 <<elseif $tempDickErect <= 40>> 
-Finding partners that can take your entire length will be almost impossible, and even then it'll take a huge amount of foreplay and care from you to not hurt them!
+당신의 극태 발기자지를 다 넣을 수 있는 파트너를 찾는것은 거의 불가능할 겁니다, 설사 찾더라도 기나긴 전희 끝에 조심조심 삽입하셔야겠지만요!
 <<else>>
-Finding a partner that can take this entire dick will be completely impossible!
+당신의 초극태 거대발기자지를 다 넣을 수 있는 파트너를 찾는것은 불가능합니다!
 <</if>>
 
 <<if $tempDickGirthErect <= 20>> 
 <<elseif $tempDickGirthErect <= 25>> 
-Though with your girth it might take a little extra work to get it in... it will surely be more rewarding in the end!
+당신의 굵기 정도면 삽입하는데에 조금 작업이 필요할 지도 모르겠네요... 결국엔 만족스러운 결과로 이어지겠지만요!
 <<elseif $tempDickGirthErect <= 30>> 
-Though with your girth it might take a little extra work to get it in... some people might actually be concerned at first sight!
+당신의 굵기 정도면 삽입하는데에 조금 작업이 필요할 지도 모르겠네요... 어떤 사람들은 처음 보면 안 들어갈까봐 걱정할지도 모르겠네요!
 <<elseif $tempDickGirthErect <= 35>> 
-Your girth you will require considerable work to make it into even the biggest size-lovers! It's simply too thick for almost anyone!
+당신의 굵기 정도면 상대가 굵은 자지 매니아여도 삽입하는데에 충분한 작업이 필요할 지도 모르겠네요! 당신의 자지는 거의 대부분의 사람들에게 있어 너무 두껍습니다!
 <<elseif $tempDickGirthErect <= 75>> 
-With your girth it'll be impossible to find anyone that can properly take you in, as it is literally too thick!
+당신의 굵기면 당신의 발기자지를 삽입할 수 있는 파트너를 찾는건 불가능할겁니다, 문자 그대로 너무 굵어요!
 <<else>>
-With your oversized girth, it'll be impossible to find anyone that can properly accommodate you, as it is just too thick! Hell, your glans is bigger than people's heads!
+당신의 특대 굵기 자지는 아무에게도 삽입할 수 없습니다. 너무 두꺼워요! 세상에 귀두가 사람 머리보다 크다니요?
 <</if>>
 <</if>>
 
 <<if $dick + $balls  < 4>>
-Below your dick are two tiny testicles. They're almost lost beneath your dick, yet they're there.
+당신의 자지 아래에는 두개의 자그마한 불알이 있습니다. 거기 있긴 한데, 거의 안 보이네요.
 <<elseif $dick + $balls  < 10>>
-Below your dick are a few of fairly average testicles. While their presence still confuses you, at least they make a nice pair!
+당신의 자지 아래에는 불알이 있습니다. 거기 있는게 좀 혼란스럽긴 한데, 최소한 멋진 한 쌍이긴 하네요!
 <<elseif $dick + $balls  < 15>>
-Below your dick are two big balls, no other way of putting it. They got some real heft to them, lifting your dick a bit, making your bulge even more noticeable.
+당신의 자지 아래에는 두개의 큰 불알이 있습니다. 달리 말할 길이 없네요. 묵직합니다. 불알이 당신 고간의 불룩함을 더 잘 보일 정도로 당신의 자지를 조금 들어올립니다.
 <<elseif $dick + $balls  < 20>>
-There is no denying: below your dick are two VERY big and hefty balls. They move and sway with every step and push your dick out a lot, giving you a humongous bulge. And they're sensitive too!
+부인할 수 없습니다. 당신의 자지 밑에는 두개의 매우 크고 묵직한 불알이 있습니다. 움직이고 흔들리며 하반신의 불룩함이 크게 티나도록 당신의 자지를 많이 밉니다. 게다가 민감해요!
 <<elseif $dick + $balls  < 30>>
-Below your dick are huge, heavy balls. They move and sway with every step, and push your dick out a lot, giving you a gigantic bulge. It's almost impossible to hide them, and given how sensitive they are...
+당신의 자지 밑에는 크고 묵직한 불알이 있습니다. 한 걸음 걸을 때마다 움직이고 흔들리며, 하반신의 불룩함이 매우 크게 티나도록 당신의 자지를 많이 밉니다. 당신의 불알이 얼마나 민감한지를 고려하면 숨기는 건 거의 불가능합니다.
 <<elseif $dick + $balls  < 40>>
-Below your dick are gigantic bowling balls, fighting for space. They move and sway with every step, and push your dick out a lot, giving you a ridiculous bulge. Every time you move your legs, they get pushed out, almost like you're showing off. It's almost impossible to hide them, and given how sensitive they are...
+당신의 자지 밑에는 커다란 볼링공이 있습니다. 공간이 모자라서 한걸음 한걸음 걸을 때마다 거의 자랑하는 것처럼 크게 움직이고 흔들려 당신 하반신의 불룩함을 어이없을 정도로 크게 만듭니다. 당신의 불알이 얼마나 민감한지를 고려하면 숨기는 건 거의 불가능합니다.
 <<elseif $dick + $balls  < 50>>
-Below your dick are two monstrous testicles, fighting for space. With every step, they are pushed aside, only to come swinging back. They are covered in veins and constantly shifting. It's downright hypnotic! It is impossible to hide them, and given how sensitive they are...
+당신의 자지 밑에는 두개의 괴물같은 불알이 있습니다, 공간이 모자라서 한걸음 한걸음 걸을 때마다 옆으로 밀리는데, 다시 흔들리며 되돌아옵니다. 울룩불룩한 혈관으로 뒤덮여 있고 지속적으로 움찔댑니다. 완전 최면을 거는 것 같네요! 당신의 불알이 얼마나 민감한지를 고려하면 숨기는 건 불가능합니다.
 <<elseif $dick + $balls  < 60>>
-Below your dick are two monstrous testicles, fighting for space. With every step, they are pushed aside, only to come swinging back. They are covered in veins and constantly shifting, enough to be almost audible. It's downright hypnotic! They hang well below your knees, absurd as it may seem. It is impossible to hide them, and given how sensitive they are...
+당신의 자지 밑에는 두개의 괴물같은 불알이 있습니다, 공간이 모자라서 한걸음 한걸음 걸을 때마다 옆으로 밀리는데, 다시 흔들리며 되돌아옵니다. 울룩불룩한 혈관으로 뒤덮여 있고 소리로 들릴 것 같이 강하게 지속적으로 움찔댑니다. 완전 최면을 거는 것 같네요! 무릎 밑까지 축 쳐져 있어요, 황당하긴 하네요. 당신의 불알이 얼마나 민감한지를 고려하면 숨기는 건 불가능합니다.
 <<elseif $dick + $balls  < 70>>
-Below your dick are two monstrous testicles, fighting for space. With every step, they are pushed aside, only to come swinging back. They are covered in veins and constantly shifting, enough to be almost audible. It's downright hypnotic! They hang well below your calves, absurd as it may seem. It is impossible to hide them, and given how sensitive they are...
+당신의 자지 밑에는 두개의 괴물같은 불알이 있습니다, 공간이 모자라서 한걸음 한걸음 걸을 때마다 옆으로 밀리는데, 다시 흔들리며 되돌아옵니다. 울룩불룩한 혈관으로 뒤덮여 있고 소리로 들릴 것 같이 강하게 지속적으로 움찔댑니다. 완전 최면을 거는 것 같네요! 종아리 밑까지 축 쳐져 있어요, 황당하긴 하네요. 당신의 불알이 얼마나 민감한지를 고려하면 숨기는 건 불가능합니다.
 <<else>>
-Below your dick are two monstrous testicles, fighting for space. With every step, they are pushed aside, only to come swinging back. They are covered in veins and constantly shifting, enough to be almost audible. It's downright hypnotic! They drag on the ground, forcing you to lift them up as you walk, it's simply absurd. It is impossible to hide them, and given how sensitive they are...
+당신의 자지 밑에는 두개의 괴물같은 불알이 있습니다, 공간이 모자라서 한걸음 한걸음 걸을 때마다 옆으로 밀리는데, 다시 흔들리며 되돌아옵니다. 울룩불룩한 혈관으로 뒤덮여 있고 소리로 들릴 것 같이 강하게 지속적으로 움찔댑니다. 완전 최면을 거는 것 같네요! 당신의 불알은 땅에 질질 끌립니다. 당신은 걸을 때마다 불알을 들어올리고 걸어야 해요, 황당하네요. 당신의 불알이 얼마나 민감한지를 고려하면 숨기는 건 불가능합니다.
 
 <</if>>
 

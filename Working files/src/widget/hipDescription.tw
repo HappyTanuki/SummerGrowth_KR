@@ -4,16 +4,16 @@
 
 <<if $hips < 0>><<set $hips to 0>><</if>>
 
-<<if $hips <= 0>>boyish
-<<elseif $hips <= 1>>slender
-<<elseif $hips <= 2>>well-formed
-<<elseif $hips <= 3>>curvy
-<<elseif $hips <= 4>>girly
-<<elseif $hips <= 5>>womanly
-<<elseif $hips <= 6>>childbearing
-<<elseif $hips <= 7>>impossibly wide
-<<elseif $hips <= 8>>brood-mother
-<<else>>door-straining
+<<if $hips <= 0>>남자아이같고
+<<elseif $hips <= 1>>슬렌더하고
+<<elseif $hips <= 2>>모양이 잘 잡힌
+<<elseif $hips <= 3>>굴곡지고
+<<elseif $hips <= 4>>여자아이스러운
+<<elseif $hips <= 5>>여성스러운
+<<elseif $hips <= 6>>아이를 잘 낳을 것 같은
+<<elseif $hips <= 7>>말도 안 되게 넓고
+<<elseif $hips <= 8>>엄청나게 탱탱하고
+<<else>>문에 꽉 끼도록
 <</if>>
 
 

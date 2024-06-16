@@ -585,8 +585,8 @@ https://docs.google.com/spreadsheets/d/1IznLvsPDhgNDmq0T1S87PWJoSo-FiUSQuqK7YRyu
 console.log('prepping data for clothing');
 var jObjects = JSON.parse(`[
     {
-      "name": "plain t-shirt",
-      "slot": "top",
+      "name": "무지 티셔츠",
+      "slot": "상의",
       "tolerance": "1.3",
       "bonusesString": "WorkoutWear Comfortable",
       "archetypes": "casual tomboy",
@@ -613,8 +613,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "geeky t-shirt",
-      "slot": "top",
+      "name": "체크무늬 티셔츠",
+      "slot": "상의",
       "tolerance": "1.3",
       "bonusesString": "Comfortable Stretchy",
       "archetypes": "casual tomboy nerdy",
@@ -641,8 +641,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "button down shirt",
-      "slot": "top",
+      "name": "버튼다운 셔츠",
+      "slot": "상의",
       "tolerance": "1.3",
       "archetypes": "casual nerdy professional",
       "baseCost": "35",
@@ -668,8 +668,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "dress shirt",
-      "slot": "top",
+      "name": "정장셔츠",
+      "slot": "상의",
       "tolerance": "1.1",
       "archetypes": "nerdy stylish professional",
       "baseCost": "50",
@@ -695,8 +695,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "torn shirt",
-      "slot": "top",
+      "name": "찢어진 셔츠",
+      "slot": "상의",
       "tolerance": "1.5",
       "bonusesString": "Stretchy",
       "archetypes": "punk tomboy sporty",
@@ -723,8 +723,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "black halter top",
-      "slot": "top",
+      "name": "검정 홀터넥 탑",
+      "slot": "상의",
       "tolerance": "1.3",
       "bonusesString": "Intimidating",
       "archetypes": "sexy stylish punk",
@@ -751,8 +751,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "crop top",
-      "slot": "top",
+      "name": "크롭탑",
+      "slot": "상의",
       "tolerance": "1.3",
       "bonusesString": "WorkoutWear",
       "archetypes": "sexy casual",
@@ -779,8 +779,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "tank top",
-      "slot": "top",
+      "name": "탱크탑",
+      "slot": "상의",
       "tolerance": "1.3",
       "bonusesString": "WorkoutWear",
       "archetypes": "sporty tomboy casual",
@@ -807,8 +807,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "halter top",
-      "slot": "top",
+      "name": "홀터 탑",
+      "slot": "상의",
       "tolerance": "1.3",
       "bonusesString": "ShowingOff",
       "archetypes": "sexy stylish",
@@ -835,8 +835,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "fish-net top",
-      "slot": "top",
+      "name": "망사 상의",
+      "slot": "상의",
       "tolerance": "1.5",
       "bonusesString": "ShowingOff",
       "archetypes": "punk sexy stylish",
@@ -863,8 +863,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.5"
     },
     {
-      "name": "hoodie",
-      "slot": "overwear",
+      "name": "후드티",
+      "slot": "외투",
       "tolerance": "1.5",
       "bonusesString": "Baggy LactationProof ExtraWarm",
       "archetypes": "casual tomboy punk sporty",
@@ -891,8 +891,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "black trenchcoat",
-      "slot": "overwear",
+      "name": "검정 트렌치코트",
+      "slot": "외투",
       "tolerance": "1.3",
       "bonusesString": "Baggy",
       "archetypes": "tomboy punk",
@@ -919,8 +919,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.5"
     },
     {
-      "name": "tailored jacket",
-      "slot": "overwear",
+      "name": "테일러드 자켓",
+      "slot": "외투",
       "tolerance": "1.1",
       "archetypes": "professional stylish",
       "baseCost": "200",
@@ -946,8 +946,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.8"
     },
     {
-      "name": "leather jacket",
-      "slot": "overwear",
+      "name": "가죽 자켓",
+      "slot": "외투",
       "tolerance": "1.1",
       "archetypes": "punk",
       "baseCost": "95",
@@ -973,8 +973,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.5"
     },
     {
-      "name": "vest",
-      "slot": "overwear",
+      "name": "조끼",
+      "slot": "외투",
       "tolerance": "1.1",
       "archetypes": "stylish professional",
       "baseCost": "50",
@@ -1000,8 +1000,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "sweater",
-      "slot": "overwear",
+      "name": "스웨터",
+      "slot": "외투",
       "tolerance": "1.5",
       "bonusesString": "Baggy LactationProof Comfortable ExtraWarm",
       "archetypes": "casual nerdy",
@@ -1028,8 +1028,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "cat ear hoodie",
-      "slot": "overwear",
+      "name": "고양이 귀 후드티",
+      "slot": "외투",
       "tolerance": "1.5",
       "bonusesString": "Baggy LactationProof Comfortable ExtraWarm",
       "archetypes": "nerdy casual girly",
@@ -1056,8 +1056,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.5"
     },
     {
-      "name": "track top",
-      "slot": "overwear",
+      "name": "츄리닝 상의",
+      "slot": "외투",
       "tolerance": "1.5",
       "bonusesString": "WorkoutWear ExtraWarm",
       "archetypes": "sporty casual tomboy",
@@ -1084,8 +1084,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "gothic vest",
-      "slot": "overwear",
+      "name": "고딕 조끼",
+      "slot": "외투",
       "tolerance": "1.1",
       "archetypes": "punk",
       "baseCost": "75",
@@ -1111,8 +1111,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.8"
     },
     {
-      "name": "spiked jacket",
-      "slot": "overwear",
+      "name": "스파이크 자켓",
+      "slot": "외투",
       "tolerance": "1.1",
       "bonusesString": "Intimidating",
       "archetypes": "punk stylish sexy",
@@ -1139,8 +1139,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.8"
     },
     {
-      "name": "sports bra",
-      "slot": "bra",
+      "name": "스포츠 브라",
+      "slot": "브라",
       "tolerance": "1.1",
       "bonusesString": "WorkoutWear",
       "archetypes": "sporty",
@@ -1167,8 +1167,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "cotton bra",
-      "slot": "bra",
+      "name": "면 브라",
+      "slot": "브라",
       "tolerance": "1.2",
       "bonusesString": "Comfortable",
       "archetypes": "casual",
@@ -1195,8 +1195,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "push-up bra",
-      "slot": "bra",
+      "name": "푸쉬업 브라",
+      "slot": "브라",
       "tolerance": "1.1",
       "bonusesString": "ShowingOff",
       "archetypes": "casual sexy",
@@ -1223,8 +1223,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "lace bra",
-      "slot": "bra",
+      "name": "레이스 브라",
+      "slot": "브라",
       "tolerance": "1.1",
       "bonusesString": "ShowingOff",
       "archetypes": "stylish sexy girly",
@@ -1251,8 +1251,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "maternity bra",
-      "slot": "bra",
+      "name": "임산부 브라",
+      "slot": "브라",
       "tolerance": "1.3",
       "bonusesString": "LactationProof Stretchy",
       "archetypes": "casual",
@@ -1279,8 +1279,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "checkered skirt",
-      "slot": "bottom",
+      "name": "체크무늬 스커트",
+      "slot": "하의",
       "tolerance": "1.3",
       "bonusesString": "ExtraWarm",
       "archetypes": "casual nerdy",
@@ -1307,8 +1307,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "dress pants",
-      "slot": "bottom",
+      "name": "정장바지",
+      "slot": "하의",
       "tolerance": "1.1",
       "bonusesString": "ExtraWarm",
       "archetypes": "stylish professional",
@@ -1335,8 +1335,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "torn jeans",
-      "slot": "bottom",
+      "name": "찢긴 청바지",
+      "slot": "하의",
       "tolerance": "1.1",
       "bonusesString": "Intimidating",
       "archetypes": "punk casual tomboy",
@@ -1363,8 +1363,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.5"
     },
     {
-      "name": "black skirt",
-      "slot": "bottom",
+      "name": "검은 스커트",
+      "slot": "하의",
       "tolerance": "1.3",
       "archetypes": "punk professional",
       "baseCost": "50",
@@ -1390,8 +1390,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "jeans",
-      "slot": "bottom",
+      "name": "청바지",
+      "slot": "하의",
       "tolerance": "1.1",
       "bonusesString": "Comfortable",
       "archetypes": "casual nerdy",
@@ -1418,8 +1418,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "jogging pants",
-      "slot": "bottom",
+      "name": "조깅 팬츠",
+      "slot": "하의",
       "tolerance": "1.3",
       "bonusesString": "Baggy WorkoutWear",
       "archetypes": "casual sporty",
@@ -1446,8 +1446,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "yoga pants",
-      "slot": "bottom",
+      "name": "요가 바지",
+      "slot": "하의",
       "tolerance": "1.3",
       "bonusesString": "WorkoutWear Stretchy",
       "archetypes": "sporty",
@@ -1474,8 +1474,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "shorts",
-      "slot": "bottom",
+      "name": "반바지",
+      "slot": "하의",
       "tolerance": "1.3",
       "bonusesString": "Comfortable",
       "archetypes": "sporty nerdy tomboy",
@@ -1502,8 +1502,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "baggy pants",
-      "slot": "bottom",
+      "name": "배기팬츠",
+      "slot": "하의",
       "tolerance": "1.5",
       "bonusesString": "Baggy Comfortable",
       "archetypes": "casual tomboy",
@@ -1530,8 +1530,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "boyshorts",
-      "slot": "underwear",
+      "name": "돌핀팬츠",
+      "slot": "속옷",
       "tolerance": "1.3",
       "bonusesString": "Comfortable Stretchy",
       "archetypes": "tomboy casual",
@@ -1558,8 +1558,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "briefs",
-      "slot": "underwear",
+      "name": "브리프",
+      "slot": "속옷",
       "tolerance": "1.3",
       "bonusesString": "Comfortable",
       "archetypes": "casual",
@@ -1586,8 +1586,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "hipster shorts",
-      "slot": "underwear",
+      "name": "힙스터 쇼츠",
+      "slot": "속옷",
       "tolerance": "1.3",
       "archetypes": "stylish casual",
       "baseCost": "35",
@@ -1613,8 +1613,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.5"
     },
     {
-      "name": "sneakers",
-      "slot": "shoes",
+      "name": "스니커즈",
+      "slot": "신발",
       "tolerance": "1.3",
       "bonusesString": "WorkoutWear Comfortable",
       "archetypes": "casual sporty nerdy",
@@ -1641,8 +1641,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "runners",
-      "slot": "shoes",
+      "name": "런닝화",
+      "slot": "신발",
       "tolerance": "1.3",
       "bonusesString": "WorkoutWear",
       "archetypes": "casual sporty nerdy",
@@ -1669,8 +1669,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "combat boots",
-      "slot": "shoes",
+      "name": "전투화",
+      "slot": "신발",
       "tolerance": "1.3",
       "bonusesString": "Intimidating",
       "archetypes": "punk tomboy",
@@ -1697,8 +1697,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.8"
     },
     {
-      "name": "platform boots",
-      "slot": "shoes",
+      "name": "플랫폼 부츠",
+      "slot": "신발",
       "tolerance": "1.3",
       "archetypes": "stylish",
       "baseCost": "80",
@@ -1724,8 +1724,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.8"
     },
     {
-      "name": "lace up boots",
-      "slot": "shoes",
+      "name": "레이스 업 부츠",
+      "slot": "신발",
       "tolerance": "1.3",
       "archetypes": "punk stylish sexy",
       "baseCost": "120",
@@ -1751,8 +1751,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.5"
     },
     {
-      "name": "heels",
-      "slot": "shoes",
+      "name": "구두",
+      "slot": "신발",
       "tolerance": "1.3",
       "archetypes": "stylish professional",
       "baseCost": "75",
@@ -1778,8 +1778,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.5"
     },
     {
-      "name": "flip flops",
-      "slot": "shoes",
+      "name": "조리",
+      "slot": "신발",
       "tolerance": "1.3",
       "bonusesString": "Comfortable",
       "archetypes": "nerdy casual",
@@ -1806,8 +1806,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "ankle boots",
-      "slot": "shoes",
+      "name": "앵클부츠",
+      "slot": "신발",
       "tolerance": "1.3",
       "archetypes": "stylish professional casual",
       "baseCost": "120",
@@ -1833,8 +1833,8 @@ var jObjects = JSON.parse(`[
       "WBCM": "1.2"
     },
     {
-      "name": "stilleto heels",
-      "slot": "shoes",
+      "name": "하이힐",
+      "slot": "신발",
       "tolerance": "1.3",
       "bonusesString": "Intimidating",
       "archetypes": "stylish sexy",
@@ -1963,19 +1963,19 @@ setup.allClothes = jObjects;
     	statsToCheck = ['muscle', 'fat', 'height', 'breasts', 'ass', 'thighs', 'dick', 'balls'];
     	sizes = [State.variables.muscle - 20, State.variables.fat - 20, State.variables.height -150, State.variables.breasts - 10, State.variables.ass * 10, State.variables.thighs * 10, State.variables.dick * 10, State.variables.balls * 10];
     }
-    else if(slot == 'top' || slot == 'overwear'){
+    else if(slot == '상의' || slot == '외투'){
     	statsToCheck = ['muscle', 'fat', 'height', 'breasts'];
         sizes = [State.variables.muscle - 20, State.variables.fat - 20, State.variables.height -150, State.variables.breasts - 10];        
     }
-    else if(slot == 'bra'){
+    else if(slot == '브라'){
     	statsToCheck = ['muscle', 'fat', 'breasts'];
         sizes = [State.variables.muscle - 20, State.variables.fat - 20, State.variables.breasts - 10];        
     }
-    else if(slot == 'bottom' || slot == 'underwear'){
+    else if(slot == '하의' || slot == '속옷'){
     	statsToCheck =  ['muscle', 'fat', 'height', 'ass', 'thighs', 'dick', 'balls'];
         sizes = [State.variables.muscle - 20, State.variables.fat - 20, State.variables.height -150, State.variables.ass * 10, State.variables.hips * 10, State.variables.dick * 10, State.variables.balls * 10];
     }
-    else if(slot == 'shoes') {
+    else if(slot == '신발') {
     	return 'height';
     }
     else{
@@ -2047,11 +2047,11 @@ setup.allClothes = jObjects;
 <<set setup.getNudeOutfitSlots to function () {
     const nudeSlots = [];
     if ((State.variables.outfit.top() == null || State.variables.outfit.top() === setup.emptyClothes) && (State.variables.outfit.overwear() == null || State.variables.outfit.overwear() === setup.emptyClothes)) {
-        nudeSlots.push('top');
-        nudeSlots.push('overwear');
+        nudeSlots.push('상의');
+        nudeSlots.push('외투');
     }
     if (State.variables.outfit.bottom() == null || State.variables.outfit.bottom() === setup.emptyClothes) {
-        nudeSlots.push('bottom');
+        nudeSlots.push('하의');
     }
     return nudeSlots;
 }>>

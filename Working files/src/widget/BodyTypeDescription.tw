@@ -3,35 +3,35 @@
 <<widget "BodyTypeDescription">>
 
 	<<if $bodyType is "skinny">>
-Your body is incredibly skinny, with no definition to speak of. Some people say you could be a model with this, but it almost looks unhealthy.
+당신의 몸은 엄청나게 말랐고, 짚을 만한 특징도 없습니다. 어떤 사람은 이런 몸은 모델 일을 할 수 있을 것이라고도 할 테지만, 거의 건강에 해로워 보일 정도입니다.
 	<<elseif $bodyType is "average">>
-Your body is really average, not skinny nor fat. Just average. It doesn't attract much attention, but at least you know you're healthy.	
+당신의 몸은 평균입니다. 마르거나 살찌지 않았고 그냥 평균입니다. 별 관심을 끌 만한 몸은 아닙니다만, 적어도 건강하시네요.
 	<<elseif $bodyType is "thick">>
-Your body is amazingly voluptuous, with some nice curves that are sure to attract attention. A bit thick, but still with a small waist, you got some heft in all the right places!
+당신의 몸은 놀라울 정도로 육감적이고, 확실히 관심을 끌 만한 멋진 몸매가 있습니다. 허리는 약간 두껍지만 여전히 가늘고, 나올 곳은 확실히 나와 있습니다!
 	<<elseif $bodyType is "obese">>
-You have an incredibly full-figured body. Some might call it obese, but you just got some extra weight that gives you a nice, rounded figure. And hey, it makes you look damn good!
+당신은 믿을 수 없을 정도로 동글동글한 몸매를 가지고 있습니다. 어떤 사람은 비만이라고 할 테지만, 당신은 당신에게 멋지고 동그란 몸매를 줄 수 있는 여분의 체중을 갖게 됐습니다. 그리고 보세요, 좋은데요?
 	<<elseif $bodyType is "thin">>
-You've got the body of a swimmer, with some nice definition in the right places, and little to no fat. With your abs outlined and even some definition in your shoulders, you certainly look fit!
+당신은 수영선수의 몸매를 가지고 있습니다. 적당한 장소에 적당한 양의 근육이 붙어 있고, 지방은 거의 또는 전혀 없습니다. 복근은 선이 나오기 시작했고 어깨근육 모양이 잡히기 시작한 것이 확실히 운동 좀 하셨네요!
 	<<elseif $bodyType is "athletic">>
-You've got the body you would expect from a male fitness model, with big, defined muscles and beautiful curves, a physique that many would kill for! Pumped biceps, good wide shoulders, strong legs, and even the occasional vein running here and there! Your body just screams 'I lift'.
+당신은 남성 피트니스 모델에게 기대할 법한 크고 선명한 근육과 아름다운 몸매, 많은 사람들이 바라는 체격을 가지고 있습니다. 펌핑된 이두근, 떡 벌어진 넓은 어깨, 강한 다리, 그리고 여기저기 보이는 굵은 혈관까지! 당신의 몸은 "나! 들어올린다!" 하고 울부짖고 있습니다.
 	<<elseif $bodyType is "strong">>
-Your body looks incredibly strong due to the large muscles on display, giving you a big, strong look! Big muscles, covered with some flab, their added size granting you a powerlifter physique. Not bad!
+당신의 몸은 보이는 큰 근육들 때문에 엄청나게 크고 강해 보입니다! 약간 군살이 있는 큰 근육, 그로 인해 커진 체격은 거의 파워리프터급입니다. 나쁘지 않네요!
 	<<elseif $bodyType is "heavy">>
-Your body looks incredibly strong, like an off-season bodybuilder! Both your huge muscles and soft layer of fat make you look incredibly strong. You can't help but be proud whenever you flex your thick arms!
+당신의 몸은 엄청나게 강해 보이는데 마치 오프시즌 보디빌더 같습니다! 당신의 거대한 근육과 부드러운 지방층 모두 당신을 믿을 수 없을 정도로 강하게 보이게 만듭니다. 두꺼운 팔을 구부릴 때마다 자랑스러워할 만 합니다!
 	<<elseif $bodyType is "bodybuilder">>
-If you competed in a bodybuilding show, you'd have a good chance of winning. A thick neck, wide shoulders and huge arms make your torso look big and defined. The relatively thin waist is only a bonus, not to speak of the defined 6-pack you got going!
+보디빌딩 쇼에 참가한다면, 우승할 가능성이 충분해 보일 정도의 몸입니다. 두꺼운 목, 넓은 어깨, 그리고 거대한 팔은 당신의 상체를 크고 선명한 근육을 가진 것으로 보이게 만듭니다. 상대적으로 얇은 허리는 보너스일 뿐입니다, 계속 만드는 중인 이미 선명한 식스팩은 말할 것도 없구요!
 	<<elseif $bodyType is "heroic">>
-You have the body of a male superhero! Thick arms,legs and a massive barrel-chest just make you look massive. Buying off-the-rack shirts will be impossible, at least ones that fit your torso. And don't forget your massive lower body, these tree-trunks you call legs are impossible to ignore.
+웬만한 남자 슈퍼히어로의 몸이네요! 두꺼운 팔, 다리, 그리고 거대한 통 같은 가슴은 당신을 거대해 보이게 만듭니다. 당신에게 맞는 셔츠는 구입하는 것이 불가능할 것입니다. 마지막으로 당신의 거대한 하체를 잊으면 곤란합니다, 당신이 다리라고 부르는 이 나무 줄기들은 무시할 수가 없네요.
 	<<elseif $bodyType is "strongman">>
-You've got the body of a champion weightlifter, with your incredible strength obvious from both your huge muscles and the thick softness you still have. Though your waist might be a lot thicker than your average bodybuilder, the huge girth gives you plenty of support and means you can lift far more than people expect!
+당신은 당신의 거대한 근육과 그래도 여전히 가진 두터운 부드러움으로 인한 강한 힘으로 말미암은 챔피언 연도선수의 몸을 가지고 있습니다. 비록 당신의 허리가 평균적인 보디빌더보다는 훨씬 더 두꺼울지 모르지만, 그 거대한 둘레는 당신에게 충분한 지지력을 주고 이는 사람들의 기대보다 훨씬 더 많이 들어올릴 수 있다는 것을 의미합니다!
 	<<elseif $bodyType is "sumowrestler">>
-Despite the huge amount of flab on your body, you are still insanely strong, all thanks to the gigantic muscles under there. They might not be at full display, but that doesn't mean you don't know how to use them! With your girth, you sometimes have trouble getting through doors, and let's not ignore the fact your legs are thicker than some people. But under all that flab is amazing strength!
+몸에 많은 군살이 있음에도 불구하고, 당신은 그 아래의 거대한 근육 덕분에 여전히 미친 듯이 강합니다. 그 근육들이 겉으로 보이진 않을지도 모르지만, 그렇다고 해서 그 근육들이 장식이라는 뜻은 아닙니다! 당신은 근육의 두께 때문에 때때로 문을 지나가는데 어려움을 겪습니다. 또한 당신의 다리는 몇몇 사람의 몸통 두께보다 더 두껍습니다. 하지만 그 모든 살집 아래에는 놀라운 힘이 있습니다!
 	<<elseif $bodyType is "hulk">>
-When you look in the mirror, you see a gigantic body, bloated by gigantic muscles that would make even the biggest superhero look small. Biceps the size of your head, shoulders that wouldn't fit through a door and a torso so muscular you feel like you could stop a cruise missile, thick slabs flanking every side! And hell, you've seen full-grown trees thinner than your legs. And yet, there is not an ounce of fat to be seen, every vein and striation clearly displayed in their full glory.
+거울을 보면 거대한 몸집과 거대한 근육으로 부풀어 오른 거대한 몸집을 볼 수 있는데, 가장 큰 슈퍼히어로도 이에 비하면 작아 보일 것입니다. 머리만한 크기의 이두박근과 문짝 너비보다 커서 문조차 지나가지 못할 어깨넓이, 그리고 상체는 마치 순항미사일을 멈출 수 있을 것처럼 느껴질 정도로 근육질입니다. 그리고 미친, 당신은 다 자란 나무가 당신 다리보다 더 얇은 걸 본 적이 있습니다. 그럼에도 불구하고, 보이는 지방은 한 푼도 없고, 모든 혈관과 줄무늬는 그들의 완전한 영광 속에 선명하게 드러나 있습니다.
 	<<elseif $bodyType is "gigantic">>
-Your body is inhumanly massive, with muscles that shatter every world record. It barely fits in the mirror, or through doors for that matter. But even at a glance, it's clear how gigantic you've become. From your shelf-like pecs to your thundering legs, every part of you screams 'gigantic'.
+당신의 몸은 비인간적으로 거대한데, 모든 세계 기록을 깨는 근육입니다. 거울에는 모습을 전부 비출 수 없고, 문을 통해서는 거의 들어가지 않습니다. 하지만 얼핏 보아도 당신이 얼마나 거대해졌는지는 분명합니다. 선반처럼 생긴 가슴근육부터 우레처럼 생긴 다리까지, 당신의 모든 부분이 '거대하다!' 소리를 지릅니다.
 	<<elseif $bodyType is "monstrous">>
-Your body is so incredibly gigantic it's hard to even conceive of your size! Arms as big as a grown man, legs that could shame trees, and a chest that makes seeing your toes a challenge! Beyond that, your gut might be gigantic, but it only adds to your powerful frame. Sure, doors might be a daunting challenge to cross without causing destruction, but with your size and strength, you can just barge through walls.
+당신의 몸은 말도 안될 정도로 거대해서 크기를 상상하기조차 어렵습니다! 팔은 성인 남성만큼 커다랗고, 다리는 나무 정도의 사이즈는 우스운 지경이고, 가슴은 발끝 쳐다보기가 도전이 될 정도로 거대합니다! 그것 말고도, 당신의 내장은 거대할지 모르지만, 그저 당신의 강력한 골격에 더해줄 뿐입니다. 당연히 문을 부시지 않고 지나가는 건 어려운 도전이 되었지만. 당신 정도의 힘과 크기라면 그냥 벽을 뚫고 지나가는 게 편할 수도 있습니다.
 <</if>>
 
 <</widget>>

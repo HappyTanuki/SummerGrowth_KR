@@ -1,15 +1,15 @@
 :: DisplayGenderName [widget] {"position":"2375,50","size":"100,100"}
 <<nobr>>
 <<widget "genderDescription">>
-<<if $gender <= 10>>extremly feminine
-<<elseif $gender <= 20>>very feminine
-<<elseif $gender <= 30>>feminine
-<<elseif $gender <= 40>>tomboyish
-<<elseif $gender <= 50>>adrogenous
-<<elseif $gender <= 60>>boyish
-<<elseif $gender <= 70>>manly
-<<elseif $gender <= 80>>masculine
-<<else>>extremly masculine
+<<if $gender <= 10>>지극히 여성스러운
+<<elseif $gender <= 20>>매우 여성스러운
+<<elseif $gender <= 30>>여성스러운
+<<elseif $gender <= 40>>톰보이같은
+<<elseif $gender <= 50>>중성적인
+<<elseif $gender <= 60>>남자아이같은
+<<elseif $gender <= 70>>남자같은
+<<elseif $gender <= 80>>사내다운
+<<else>>상남자스러운
 <</if>><</widget>>
 <</nobr>>
 

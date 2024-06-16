@@ -39,7 +39,7 @@
 <<if $daysPlayed == $dayOfEmmaBulkDate>>
     <<script>>
         if (!Dialog.isOpen()) {
-            new Wikifier(Dialog.setup('Reminder!'), 'You promised Emma you would mealprep with her. She will be expecting you!');
+            new Wikifier(Dialog.setup('기억하세요!'), '당신은 Emma에게 식사를 같이 준비해 주겠다고 약속했습니다. 그녀는 당신을 기다리고 있을 겁니다!');
             Dialog.open();
         
         }

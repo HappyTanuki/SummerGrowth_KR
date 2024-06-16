@@ -6,17 +6,17 @@
 <span id="outfitTable">
 <table id="store">
   <tr>
-    <th>Name</th>
-    <th>bonuses</th>
-    <th>Fit</th>
-    <th>Style</th>
-    <th>Actions</th>
+    <th>이름</th>
+    <th>추가 효과</th>
+    <th>사이즈</th>
+    <th>스타일</th>
+    <th>행동</th>
   </tr>  
   
  <tr>
     <td>
     	<input type="radio" class="clothingItemRadiobutton" name="slotItem" value='-1'>
-		<label> Nothing </label>        
+		<label> 벗기 </label>        
     </td>
     <td> - </td>
     <td> - </td>
@@ -43,7 +43,7 @@
                 	<<print $wardrobe[_i].archetypes>>
                 </td>
                 <td>
-                	<<link "Throw away">>
+                	<<link "버리기">>
                         <<if $outfit[$wardrobe[_i].slot + 'Id'] === $wardrobe[_i].id>>
                             <<set $outfit[$wardrobe[_i].slot + 'Id'] to null>>
                         <</if>>

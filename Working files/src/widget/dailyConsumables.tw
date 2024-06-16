@@ -14,7 +14,7 @@
 		<<set $gymStoreSupplies[_igymStoreSupply].effectStore to Math.round($gymStoreSupplies[_igymStoreSupply].effectStore)>>
 		
 		<<if $gymStoreSupplies[_igymStoreSupply].takeDaily * 3 >= $gymStoreSupplies[_igymStoreSupply].amount>>
-			<<set _warningString to "You only have " +  $gymStoreSupplies[_igymStoreSupply].amount +  " doses left of " + $gymStoreSupplies[_igymStoreSupply].name + " so you might run out soon.">>
+			<<set _warningString to $gymStoreSupplies[_igymStoreSupply].name + "가 고작 " + $gymStoreSupplies[_igymStoreSupply].amount.amount +  "개밖에 안 남았습니다. 곧 동날 것 같군요!">>
 			<<addToLog _warningString>>
 		<</if>>
 		
@@ -22,7 +22,7 @@
 			<<set _amountTaken to $gymStoreSupplies[_igymStoreSupply].takeDaily>>	
 		<<else>>
 			<<set _amountTaken to $gymStoreSupplies[_igymStoreSupply].amount>>
-			<<set _ranOutLog to "You're clean out of " + $gymStoreSupplies[_igymStoreSupply].name + ".">>
+			<<set _ranOutLog to $gymStoreSupplies[_igymStoreSupply].name + "가 완전히 다 떨어졌습니다.">>
 			<<addToLog _ranOutLog>>
 			<<set $gymStoreSupplies[_igymStoreSupply].takeDaily to 0>>
 		<</if>>

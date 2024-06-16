@@ -117,7 +117,7 @@
 <<set $wardrobe to [
 	{
         	id: 1,
-            name: 'plain T-shirt',
+            name: '무지 티셔츠',
             tolerance: 1.3,
             archetypes: ['casual', 'tomboy'],
             bonuses: [
@@ -125,44 +125,44 @@
                     setup.clothingBonuses.Comfortable
             	],
             size: 2,
-            slot: 'top'
+            slot: '상의'
         },
         {
         	id: 2,
-            name: 'jeans',
+            name: '청바지',
             tolerance: 1.1,
             archetypes: ['casual', 'nerdy'],
             bonuses: [
                     setup.clothingBonuses.Comfortable
             	],
             size: 1,
-            slot: 'bottom'
+            slot: '하의'
         },
         {
         	id: 3,
-            name: 'briefs',
+            name: '브리프',
             tolerance: 1.3,
             archetypes: ['casual'],
             bonuses: [
             		setup.clothingBonuses.Comfortable
             	],
             size: 1,
-            slot: 'underwear'
+            slot: '속옷'
         },
         {
         	id: 4,
-            name: 'cotton bra',
+            name: '면 브라',
             tolerance: 1.1,
             archetypes: ['casual'],
             bonuses: [
                     setup.clothingBonuses.Comfortable
             	],
             size: 1,
-            slot: 'bra'
+            slot: '브라'
         },
         {
         	id: 5,
-            name: 'hoodie',
+            name: '후드티',
             tolerance: 1.5,
             archetypes: ['casual', 'tomboy', 'punk', 'sporty'],
             bonuses: [
@@ -171,133 +171,133 @@
                     setup.clothingBonuses.ExtraWarm
             	],
             size: 1,
-            slot: 'overwear'
+            slot: '외투'
         },
         {
         	id: 6,
-            name: 'runners',
+            name: '런닝화',
             tolerance: 1.3,
             archetypes: ['casual', 'sporty', 'nerdy'],
             bonuses:  [
             		setup.clothingBonuses.WorkoutWear
             	],
             size: 1,
-            slot: 'shoes'
+            slot: '신발'
         },
         {
         	id: 7,
-            name: 'gym shorts',
+            name: '운동 반바지',
             tolerance: 1.1,
             archetypes: ['gym', 'casual', 'exposed'],
             bonuses: [
             		setup.clothingBonuses.WorkoutWear
             	],
             size: 1,
-            slot: 'bottom'
+            slot: '하의'
         },
         {
         	id: 8,
-            name: 'boybriefs',
+            name: '남성용 브리프',
             tolerance: 1.2,
             archetypes: ['casual'],
             bonuses: [
             	],
             size: 1,
-            slot: 'underwear'
+            slot: '외투'
         },
        	{
         	id: 9,
-            name: 'sports bra',
+            name: '스포츠 브라',
             tolerance: 1.1,
             archetypes: ['gym'],
             bonuses: [
             		setup.clothingBonuses.WorkoutWear
             	],
             size: 0,
-            slot: 'bra'
+            slot: '브라'
         },
    		 {
          	id: 10,
-            name: 'geeky shirt',
+            name: '체크무늬 셔츠',
             tolerance: 1.2,
             archetypes: ['casual', 'geek'],
             bonuses: [
             	],
             size: 1,
-            slot: 'top'
+            slot: '상의'
         },
         {	
         	id: 11,
-            name: 'old jeans',
+            name: '낡은 청바지',
             tolerance: 1.2,
             archetypes: ['casual', 'goth', 'punk'],
             bonuses: [
             		setup.clothingBonuses.Stretchy
             	],
             size: 0,
-            slot: 'bottom'
+            slot: '하의'
         },
         {
         	id: 12,
-            name: 'bikini',
+            name: '비키니',
             tolerance: 1.2,
             archetypes: ['casual'],
             bonuses: [
             		setup.clothingBonuses.Stretchy
             	],
             size: 1,
-            slot: 'underwear'
+            slot: '속옷'
         },
         {
         	id: 13,
-            name: 'padded bra',
+            name: '패드 브라',
             tolerance: 1,
             archetypes: ['casual', 'basic'],
             bonuses: [
             		setup.clothingBonuses.LactationProof
             	],
             size: 1,
-            slot: 'bra'
+            slot: '브라'
         },
         {
         	id: 14,
-            name: 'black worn trenchcoat',
+            name: '해진 검은 트랜치코트',
             tolerance: 1.25,
             archetypes: ['punk', 'goth'],
             bonuses: [
             	],
             size: 1,
-            slot: 'overwear'
+            slot: '외투'
         },
         {
         	id: 15,
-            name: 'boyshorts',
+            name: '돌핀팬츠',
             tolerance: 1.2,
             archetypes: ['casual'],
             bonuses: [
             	],
             size: 1,
-            slot: 'underwear'
+            slot: '속옷'
         },
         {
         	id: 16,
-            name: 'old bra',
+            name: '낡은 브라',
             tolerance: 1.1,
             archetypes: ['casual', 'basic'],
             bonuses: [
             	],
             size: 0,
-            slot: 'bra'
+            slot: '브라'
         },
         {
         	id: 17,
-            name: 'combat boots',
+            name: '전투화',
             tolerance: 1,
             archetypes: ['goth', 'punk'],
             bonuses: [
             	],
             size: 3,
-            slot: 'shoes'
+            slot: '신발'
         }
 ]>>
 

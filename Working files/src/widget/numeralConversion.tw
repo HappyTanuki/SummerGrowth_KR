@@ -15,9 +15,9 @@
 
 <<elseif $measurementSystem is "metric">>
 	<<if $args[0] >= 100 and $args[1] != true>>
-		<<print Number(($args[0] / 100).toFixed(2))>> meter
+		<<print Number(($args[0] / 100).toFixed(2))>>M
 	<<else>>
-		<<print Math.round($args[0])>> cm
+		<<print Math.round($args[0])>>cm
 
 	<</if>>
 <</if>>

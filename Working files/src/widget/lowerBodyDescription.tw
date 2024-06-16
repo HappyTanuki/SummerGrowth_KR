@@ -2,7 +2,7 @@
 <<nobr>>
 <<widget "lowerBodyDescription">>
 
-With your <<hipDescription>> hips and <<assDescription>> butt, you have a really nice figure!
+당신은 <<hipDescription>> <<assDescription>> 엉덩이를 가졌습니다, 몸매가 아주 좋네요!
 
 <<if $ass + $hips > 12>> And given that your rump is now almost world-famous, it's not surprising that people are stunned when they witness it. Sure, it's almost impossible not to, but do they HAVE to stare at you all the time?!?
 <<elseif $ass + $hips > 10>>Since your backside is almost impossible to miss, you have become the center of attention no matter where you go. It'd be nice if people didn't stare now and then, but with a figure like this... eh, can you blame them?

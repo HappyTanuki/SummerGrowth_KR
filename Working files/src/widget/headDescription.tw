@@ -2,15 +2,15 @@
 <<nobr>>
 <<widget "headDescription">>
 
-<<if $gender <= 10>>Your face is extremely feminine with sharp, beautiful curves. Piercing <<print $eyeColor>> eyes with long eyelashes are sure to draw in attention while your <<lipsDescription>> lips make you look only more amazing. 
-<<elseif $gender <= 20>>Your face is very feminine with soft, beautiful curves. Bright <<print $eyeColor>> eyes with long eyelashes are sure to draw in attention while your <<lipsDescription>> lips complete the look.
-<<elseif $gender <= 30>>Your face is very pretty and feminine, with nice curves and nice proportions. Nice <<print $eyeColor>> eyes with long eyelashes are sure to draw in attention while your <<lipsDescription>> lips complete the look.
-<<elseif $gender <= 40>>Your tomboyish face gives you a confident look. Bright <<print $eyeColor>> eyes with decent eyelashes and <<lipsDescription>> lips make you look feminine, while the overall contours of your head make you look a bit masculine.
-<<elseif $gender <= 50>>Your tomboyish face is always nice to see. Bright <<print $eyeColor>> eyes with decent eyelashes and <<lipsDescription>> lips make you look feminine, while the overall contours of your head make you look more masculine.
-<<elseif $gender <= 60>>Your boyish face is masculine, but with a clear feminine touch to it. Sharp <<print $eyeColor>> eyes and a decent jawline contrast with your softer nose and <<lipsDescription>> lips.
-<<elseif $gender <= 70>>You have a manly face with a sharp jawline and clear <<print $eyeColor>> eyes. A full nose and <<lipsDescription>> lips compliment your overall look. 
-<<elseif $gender <= 80>>Your very masculine face wouldn't be misplaced on a magazine cover. Radiating, <<print $eyeColor>> eyes draw a lot of looks and your broad, sharp jaw make a lot of people jealous. Even when you shave you seem to have a bit of a stubble and even your <<lipsDescription>> lips compliment your overall look.
-<<else>>Your extremely masculine face is the epitome of manliness; radiating, <<print $eyeColor>> eyes draw a lot of looks and your broad, sharp jaw make a lot of people jealous. Even when you shave you seem to have a bit of a stubble and your <<lipsDescription>> lips compliment your overall look.
+<<if $gender <= 10>>당신의 얼굴은 날카롭고 아름다운 곡선으로 극도로 여성스럽습니다. 긴 속눈썹이 있는 뚫는듯한 <<print $eyeColor>> 눈동자는 당연히 시선을 끌 것이고, 당신의 <<lipsDescription>> 입술은 당신을 더 놀랍게 보이게 만들 것입니다.
+<<elseif $gender <= 20>>당신의 얼굴은 부드럽고 아름다운 곡선으로 메우 여성스럽습니다. 긴 속눈썹이 있는 밝게 빛나는 <<print $eyeColor>> 눈동자는 당신의 <<lipsDescription>> 입술이 외모를 완성시키는 동안 당연히 시선을 끌 것입니다.
+<<elseif $gender <= 30>>당신의 얼굴은 좋은 곡선과 적당한 비율로 매우 예쁘고 여성스럽습니다. 긴 속눈썹이 있는 <<print $eyeColor>> 눈동자는 당신의 <<lipsDescription>> 입술이 외모를 완성시키는 동안 당연히 시선을 끌 것입니다.
+<<elseif $gender <= 40>>당신의 톰보이스러운 얼굴은 당신이 매우 자신감 있는것으로 보이게 합니다. 속눈썹이 있고 빛나는 <<print $eyeColor>>색 눈동자와 <<lipsDescription>> 입술은 당신을 여성스럽게 보이게 만들지만 얼굴의 전체적인 관상은 약간 남성적입니다.
+<<elseif $gender <= 50>>당신의 톰보이스러운 얼굴은 항상 보기 좋습니다. 속눈썹이 있고 빛나는 <<print $eyeColor>>색 눈동자와 <<lipsDescription>>입술은 당신을 여성스럽게 보이게 만들지만 얼굴의 전체적인 관상은 여성스럽기보단 남성스럽습니다.
+<<elseif $gender <= 60>>당신의 남자아이같은 얼굴은 남성적이지만 확실히 여성스러운 부분이 있습니다. 날카로운 <<print $eyeColor>>색 눈동자와 부드러운 코와 턱선의 적당한 대비, 그리고 <<lipsDescription>> 입술이 그것이죠.
+<<elseif $gender <= 70>>당신은 날카로운 턱선과 맑고 <<print $eyeColor>> 눈동자로 남성적인 얼굴을 가지고 있습니다. 꽉 찬 코와 <<lipsDescription>> 입술이 당신의 전체적인 외모를 완성시킵니다.
+<<elseif $gender <= 80>>당신의 매우 남성적인 얼굴은 잡지 커버에 잘못 실리지 않을 겁니다. 레이저로 쏘는 듯한 <<print $eyeColor>> 눈동자는 시선을 끌고, 당신의 넓고 날카로운 턱은 많은 사람들을 질투하게 만들 겁니다. 수염을 깎아도 당신은 약간 까칠한 수염을 가진 것처럼 보이고 심지어 당신의 <<lipsDescription>> 입술조차 당신의 외모를 완성시킵니다.
+<<else>>당신의 매우 남성적인 얼굴은 수컷다움의 정석이고, 레이저로 쏘는 듯한 <<print $eyeColor>> 눈동자는 시선을 끕니다. 당신의 넓고 날카로운 턱은 많은 사람들을 질투하게 만들 겁니다. 수염을 깎아도 당신은 약간 까칠한 수염을 가진 것처럼 보이고 심지어 당신의 <<lipsDescription>> 입술조차 당신의 외모를 완성시킵니다.
 <</if>> <<tongueDescription>>
 
 <</widget>>

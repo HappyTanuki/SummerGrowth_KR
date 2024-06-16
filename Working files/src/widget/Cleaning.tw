@@ -15,29 +15,29 @@
 
 <<if _currentRoomCleaned < 1>>
 
-<<elseif _currentRoomCleaned < 2 and _currentRoomCleaned > 1>> It has a nice lived-in feel to it, though it could use some cleaning up.
+<<elseif _currentRoomCleaned < 2 and _currentRoomCleaned > 1>> 방이 생활감이 있어서 좋네요, 조금은 청소가 필요할 수도 있을 것 같습니다.
 
 <br><br>
-<<elseif _currentRoomCleaned < 3 and _currentRoomCleaned > 2>> It has gotten quite messy lately. You should clean it up a bit.
+<<elseif _currentRoomCleaned < 3 and _currentRoomCleaned > 2>> 방이 최근따라 꽤 난장판이 됐군요. 조금은 청소를 하셔야겠습니다.
 
 <br><br>
 
 
-<<elseif _currentRoomCleaned < 4 and _currentRoomCleaned > 3>> It's a huge mess though, and you really should make an effort to make it somewhat livable again. 
+<<elseif _currentRoomCleaned < 4 and _currentRoomCleaned > 3>> 방이 완전히 난장판입니다. 어떻게든 살만한 환경으로 만들려면 꽤 노력해서 치워야겠군요.
 
 <br><br>
-<<addToLog "Ugh, this house needs a thorough cleaning...">>
-<<elseif _currentRoomCleaned > 4>> It's a barely livable mess, though, and you really should at least make it somewhat habitable again!
-<<addToLog "Urgh, this room is disgusting... It's horrible to look at.">>
+<<addToLog "으, 이 집은 대청소가 필요하겠는걸...">>
+<<elseif _currentRoomCleaned > 4>> 방이 거의 살기 힘든 엉망진창입니다. 최소한 살만한 환경으로 다시 만들어야 합니다!
+<<addToLog "으악, 이 방은 역겨운걸... 보기 힘들 정도야...">>
 <</if>>
 
 <<if _currentRoomCleaned > 1>>
 <<if $motivation > $exhaustion && $exhaustion + (10 * _currentRoomCleaned) < 100>>
 	<br><br>
 	
-	<<set _timeString to "time:" + (30 * _currentRoomCleaned)>>
-	<<set _roomCleanedExhaustionString to "exhaustion:" + (10 * _currentRoomCleaned)>>
-	<<gameLink "Clean the room" $return _timeString _roomCleanedExhaustionString>>
+	<<set _timeString to "시간:" + (30 * _currentRoomCleaned)>>
+	<<set _roomCleanedExhaustionString to "피로도:" + (10 * _currentRoomCleaned)>>
+	<<gameLink "방을 청소한다" $return _timeString _roomCleanedExhaustionString>>
 	
 	<<if $args[0] is "Home">>
 		<<run State.setVar("$livingRoomCleaned", 0)>>
@@ -57,15 +57,15 @@
 	<</script>>
 	<<set _currentRoomCleaned to 0>>
     <<script>>
-      var dialog = Dialog.setup("Room cleaned!");
-      new Wikifier(dialog, "It took some time, but you managed to get the room nice and livable again. Nothing like a freshly-cleaned room to make you feel proud of yourself!");
+      var dialog = Dialog.setup("방을 청소했습니다!");
+      new Wikifier(dialog, "시간은 좀 걸렸지만, 당신은 방을 다시 살만한 공간으로 만들었습니다. 막 청소한 방처럼 당신 자신을 자랑스럽게 하는 건 없죠!");
       Dialog.open();
     <</script>>
     <<goto _room>>
 <</gameLink>>
 <br><br>
 <<else>>
-Unfortunately, you're just too tired to clean.
+아쉽지만, 당신은 청소를 하기엔 너무 지쳤습니다.
 <br><br>
 <</if>>
 <</if>>

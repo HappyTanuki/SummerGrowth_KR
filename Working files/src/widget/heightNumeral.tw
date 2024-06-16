@@ -10,7 +10,7 @@
 <<print $heightFeet>>'<<print $heightInches>>"
 
 <<elseif $measurementSystem is "metric">>
-<<print Number(($height / 100).toFixed(2))>> meter
+<<print Number(($height / 100).toFixed(2))>>M
 <</if>>
 
 
